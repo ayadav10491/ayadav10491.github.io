@@ -2,9 +2,10 @@ title: "Hello,
 I am Akash Yadav" # your name (or website title) here
 logo: "/images/akash.jpg?raw=true" # your photo (or logo) here
 description: > # your text below (remove <br> elements if you don't need line breaks)
+<p align="justify">
   <br> I am an enthusiast continuously working towards integrated intelligent systems. 
-  I have worked on system design and integration with sensors like Camera, Radar, GPS etc.<br>
-  
+  I have worked on system design and integration with sensors like Camera, Radar, GPS etc.<br>  </p>
+
   Second description 
   <br><br>
   <a href="https://www.linkedin.com/in/akash-yadav-10491/">View My LinkedIn Profile</a> 
