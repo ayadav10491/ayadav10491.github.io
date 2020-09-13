@@ -9,7 +9,6 @@ This work explores the task of traffic scene segmentation using convolution neur
 
 <img src="https://github.com/ayadav10491/TFLite-Semantic-Segmantation/blob/master/utils/camvid.gif?raw=true" width="150" height="200"> <img src="https://github.com/ayadav10491/Portfolio/blob/master/images/size_comparison.jpg?raw=true"  width="300" height="200"/>
 
-
 ---
 [Project 2 Title](/pdf/sample_presentation.pdf)
 <img src="images/dummy_thumbnail.jpg?raw=true"/>
