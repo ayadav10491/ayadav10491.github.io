@@ -7,7 +7,7 @@
 This work explores the task of traffic scene segmentation using convolution neural network. Furthermore, the dataset is trained using UNet [Ronnerberger 15] and SegNet [Badrinarayanan 17] encoder-decoder architectures with MobileNetV2  [Sandler 18] as an encoder. Out of the trained models, UNet-MobileNetV2 showcases dense segmentation results as compared to SegNet-MobileNetV2. For further compression both the trained models are passed through 4 compression techniques (without quantization, Float16, Float32, Int8) using TensorFlow Lite. The compression allows the model to achieve the maximum reduction of up to 91 percent with reduced noise. 
 
 ![alt-text-10](https://github.com/ayadav10491/TFLite-Semantic-Segmantation/blob/master/utils/camvid.gif)
-![alt-text-5](https://github.com/ayadav10491/Portfolio/blob/master/images/size_comparison.jpg | width=100)
+![](https://github.com/ayadav10491/Portfolio/blob/master/images/size_comparison.jpg | width=100)
 
 ---
 [Project 2 Title](/pdf/sample_presentation.pdf)
