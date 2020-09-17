@@ -10,6 +10,6 @@
 
 ### Training Process
 
-#### Architecture: Endoder-Decoder
-#### Models: UNet, SegNet
-#### Encoder: MobileNetV2
+<b> Architecture </b>: Endoder-Decoder
+<b> Models </b> : UNet, SegNet
+<b> Encoder  </b> : MobileNetV2
