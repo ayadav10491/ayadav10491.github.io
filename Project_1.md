@@ -7,3 +7,9 @@
   
 ### Workflow
 <img src="https://github.com/ayadav10491/Portfolio/blob/master/images/workflow.JPG?raw=true" width="500" height="250"> 
+
+### Training Process
+
+#### Architecture: Endoder-Decoder
+#### Models: UNet, SegNet
+#### Encoder: MobileNetV2
