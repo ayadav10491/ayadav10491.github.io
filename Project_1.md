@@ -30,4 +30,4 @@
 
 ### Inference using TensorFlow Lite Interpreter
 
-<img src="https://github.com/ayadav10491/Portfolio/blob/master/images/camvid.gif?raw=true" width="180" height="200">
+<img src="https://github.com/ayadav10491/Portfolio/blob/master/images/camvid.gif?raw=true" width="300" height="300">
