@@ -25,6 +25,6 @@
 
 ### Compression Result
 
-<img src="https://github.com/ayadav10491/Portfolio/blob/master/images/size_comparison.svg?raw=true" width="550" height="350"> 
+<img src="https://github.com/ayadav10491/Portfolio/blob/master/images/size_comparison.jpg?raw=true" width="550" height="350"> 
 
 
