@@ -10,6 +10,8 @@
 
 ### Training Process
 
+<b> Computer Vision Task </b> : Semantic Segmentation
+<b> Dataset </b> : CamVid 
 <b> Architecture </b>: Endoder-Decoder <br> 
 <b> Models </b> : UNet, SegNet <br> 
 <b> Encoder  </b> : MobileNetV2 <br> 
