@@ -15,3 +15,8 @@
 <b> Architecture </b>: Endoder-Decoder <br> 
 <b> Models </b> : UNet, SegNet <br> 
 <b> Encoder  </b> : MobileNetV2 <br> 
+
+### Compression and Inference based on TensorFlow Lite
+
+<img src="https://github.com/ayadav10491/Portfolio/blob/master/images/conversion_and_inf.JPG?raw=true" width="500" height="300"> 
+
