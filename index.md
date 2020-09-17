@@ -1,7 +1,7 @@
 # Portfolio
 
 ---
-### 1. Embedded Deep Learning based Semantic Segmentation &nbsp;&nbsp;&nbsp; using TensorFLow Lite
+### 1. Embedded Deep Learning based Semantic Segmentation &nbsp;&nbsp;&nbsp;&nbsp; using TensorFLow Lite
 <p align="justify">
 This work explores the task of traffic scene segmentation using convolution neural network. The trained models are passed through 4 compression techniques (without quantization, Float16, Dynamic range, Int8) using TensorFlow Lite. The compression allows the model to achieve the maximum reduction of up to 91 percent with reduced noise. <br>
  
