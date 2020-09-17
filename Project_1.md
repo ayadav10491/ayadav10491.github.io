@@ -18,5 +18,5 @@
 
 ### Compression and Inference based on TensorFlow Lite
 
-<img src="https://github.com/ayadav10491/Portfolio/blob/master/images/comp_and_png.JPG?raw=true" width="600" height="300"> 
+<img src="https://github.com/ayadav10491/Portfolio/blob/master/images/comp_and_inf.png?raw=true" width="600" height="300"> 
 
