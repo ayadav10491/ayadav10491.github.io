@@ -18,5 +18,8 @@
 
 ### Compression and Inference based on TensorFlow Lite
 
+<b> Compression Techniques  </b> : [x] Quantization      [] Prunning
+<b> Compression Tools  </b> :   [x] TensorFlow Lite      [] TensorRT
+
 <img src="https://github.com/ayadav10491/Portfolio/blob/master/images/comp_and_inf.png?raw=true" width="600" height="400"> 
 
