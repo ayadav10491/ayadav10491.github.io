@@ -8,7 +8,7 @@ This work explores the task of traffic scene segmentation using convolution neur
 [Explore more ...](/Project_1.md)
  
 </p>
-<img src="https://github.com/ayadav10491/Portfolio/blob/master/images/camvid.gif?raw=true" width="180" height="200"> <img src="https://github.com/ayadav10491/Portfolio/blob/master/images/size_comparison.jpg?raw=true"  width="300" height="200"/>
+<img src="https://github.com/ayadav10491/Portfolio/blob/master/images/camvid.gif?raw=true" width="300" height="200"> <!-- <img src="https://github.com/ayadav10491/Portfolio/blob/master/images/size_comparison.jpg?raw=true"  width="300" height="200"/> -->
 
 ---
 [Project 2 Title](/pdf/sample_presentation.pdf)
