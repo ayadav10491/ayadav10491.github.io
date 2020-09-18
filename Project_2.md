@@ -55,4 +55,6 @@ of the behaviour. It is interesting to note that, like the transfer function, ac
   </dl>
 </ul>
 
-<img src="https://github.com/ayadav10491/Portfolio/blob/master/images/robot_unreal.gif?raw=true" width="400" height="200"> <img src="https://github.com/ayadav10491/Portfolio/blob/master/images/robot_finroc.gif?raw=true"  width="400" height="200"/>
+<img src="https://github.com/ayadav10491/Portfolio/blob/master/images/robot_unreal.gif?raw=true" width="400" height="200">
+
+<img src="https://github.com/ayadav10491/Portfolio/blob/master/images/robot_finroc.gif?raw=true"  width="400" height="200"/>
