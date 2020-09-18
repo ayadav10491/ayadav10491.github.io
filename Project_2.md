@@ -23,7 +23,7 @@ the same to the edge compaction module of the navigation system. The manual edge
 <li> Simulation using Unreal Engine and Finroc (ROS inspired tool) </li>
 </ul>
 
-## Literature Research
+## Backgroud
 
 ### Integrated Behaviour based Control Strategy (iB2C)
 
@@ -64,9 +64,18 @@ of the behaviour. It is interesting to note that, like the transfer function, ac
 <img src="https://github.com/ayadav10491/Portfolio/blob/master/images/architecture - Copy.png?raw=true" >
 <p align="center" style="font-size:12px"> REACTiON control architecture with Remote Interface [Wolf 18][Ropertz 18b] </p> 
 
+### Remote Interface based on 5G AMMCOA (Autonomous Mobile Machine Communication for Off-Road Applications) Protocol
+<img src="https://github.com/ayadav10491/Portfolio/blob/master/images/ammacoa.png?raw=true" >
+
+## Related Work 
+
 ### Road Representation and Edge Extraction
 <img src="https://github.com/ayadav10491/Portfolio/blob/master/images/road_representation.png?raw=true" >
 <p align="center" style="font-size:12px"> Road R representation with Seam <b> <i>S</i>&#8407;</b> , Lane <b> <i>L</i>&#8407;</b>, Edge <b> <i>E</i>&#8407;</b>, Grid <b> <i>G</i>&#8407;</b> and Tracks <b> <i>T</i>&#8407;</b> [Wolf 19] </p> 
+
+### Bicycle Model
+<img src="https://github.com/ayadav10491/Portfolio/blob/master/images/bicycle_model.png?raw=true" >
+
 
 ### Methodology
 
