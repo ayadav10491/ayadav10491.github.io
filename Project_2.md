@@ -57,24 +57,24 @@ of the behaviour. It is interesting to note that, like the transfer function, ac
   <dd>- <b> <i> Weighted Average Fusion </i> </b> </dd>
   </dl>
 </ul>
-
+<br>
 
 ### Control Architecture Integrating Different Level Of Navigation Tasks 
 
 <img src="https://github.com/ayadav10491/Portfolio/blob/master/images/architecture - Copy.png?raw=true" >
-<p align="center" style="font-size:12px"> REACTiON control architecture with Remote Interface [Wolf 18][Ropertz 18b] </p> 
+<p align="center" style="font-size:12px"> REACTiON control architecture with Remote Interface [Wolf 18][Ropertz 18b] </p>  <br>
 
 ### Remote Interface based on 5G AMMCOA (Autonomous Mobile Machine Communication for Off-Road Applications) Protocol
-<img src="https://github.com/ayadav10491/Portfolio/blob/master/images/ammacoa.png?raw=true" >
+<img src="https://github.com/ayadav10491/Portfolio/blob/master/images/ammacoa.png?raw=true" > <br>
 
 ## Related Work 
 
 ### Road Representation and Edge Extraction
 <img src="https://github.com/ayadav10491/Portfolio/blob/master/images/road_representation.png?raw=true" >
-<p align="center" style="font-size:12px"> Road R representation with Seam <b> <i>S</i>&#8407;</b> , Lane <b> <i>L</i>&#8407;</b>, Edge <b> <i>E</i>&#8407;</b>, Grid <b> <i>G</i>&#8407;</b> and Tracks <b> <i>T</i>&#8407;</b> [Wolf 19] </p> 
+<p align="center" style="font-size:12px"> Road R representation with Seam <b> <i>S</i>&#8407;</b> , Lane <b> <i>L</i>&#8407;</b>, Edge <b> <i>E</i>&#8407;</b>, Grid <b> <i>G</i>&#8407;</b> and Tracks <b> <i>T</i>&#8407;</b> [Wolf 19] </p>  <br>
 
 ### Bicycle Model
-<img src="https://github.com/ayadav10491/Portfolio/blob/master/images/bicycle_model.png?raw=true" >
+<img src="https://github.com/ayadav10491/Portfolio/blob/master/images/bicycle_model.png?raw=true" > <br>
 
 
 ## Concept and Implementation
@@ -97,12 +97,12 @@ of the behaviour. It is interesting to note that, like the transfer function, ac
 #### Steering Controller
 Receives the maneuvering parameters from the Pilot and transforms them into wheel angles and velocity
 <img src="https://github.com/ayadav10491/Portfolio/blob/master/images/controller.png?raw=true" >
-<p align="center" style="font-size:12px">Controller input to ackermann steering hardware</p> 
+<p align="center" style="font-size:12px">Controller input to ackermann steering hardware</p>  <br>
 
 ## Results
 
 ### Simulation on Unreal Engine
-<img src="https://github.com/ayadav10491/Portfolio/blob/master/images/robot_unreal.gif?raw=true" width="400" height="200">
+<img src="https://github.com/ayadav10491/Portfolio/blob/master/images/robot_unreal.gif?raw=true" width="400" height="200"> <br>
 
 ### Simulation on FinGUi
-<img src="https://github.com/ayadav10491/Portfolio/blob/master/images/robot_finroc.gif?raw=true"  width="400" height="200"/>
+<img src="https://github.com/ayadav10491/Portfolio/blob/master/images/robot_finroc.gif?raw=true"  width="400" height="200"/><br>
