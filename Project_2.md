@@ -30,7 +30,7 @@ the same to the edge compaction module of the navigation system. The manual edge
 <ul>
   <li> <b> Structure and Components </b> </li>
   
-  The iB2C behaviour module (B) consists of six signals coming in and out namely, Stimulation s, Inhibition vector <i>i&#8407</i>, Input vector ~e, Output vector ~u, Activation vector ~a and Target rating r. The stimulation s is responsible for a gradual initiation of behaviour, while the inhibition vector~i gradually disables it. The combined interaction of s [0, 1] and ~i [0, 1] triggers an activation  signal which sets the limiting value for the influence of behaviour.
+  The iB2C behaviour module (B) consists of six signals coming in and out namely, Stimulation s, Inhibition vector <i><v>i</v></i>, Input vector ~e, Output vector ~u, Activation vector ~a and Target rating r. The stimulation s is responsible for a gradual initiation of behaviour, while the inhibition vector~i gradually disables it. The combined interaction of s [0, 1] and ~i [0, 1] triggers an activation  signal which sets the limiting value for the influence of behaviour.
   
   <img src="https://github.com/ayadav10491/Portfolio/blob/master/images/ib2c_structure_.JPG?raw=true" width="500" height="180"> 
   
