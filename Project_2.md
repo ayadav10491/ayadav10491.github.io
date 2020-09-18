@@ -50,8 +50,8 @@ of the behaviour. It is interesting to note that, like the transfer function, ac
   
   Behaviour fusion can be achieved using following techniques: 
   <dl>
-       <dd>- <b> Maximum Fusion </b> </dd>
-       <dd>- <b> Weighted Average Fusion </b> </dd>
+  <dd>- <b> <i> Maximum Fusion </i> </b> </dd>
+  <dd>- <b> <i> Weighted Average Fusion <i/> </b> </dd>
   </dl>
 </ul>
 
