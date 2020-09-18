@@ -8,13 +8,13 @@ This work explores the task of traffic scene segmentation using convolution neur
 [Explore more ...](/Project_1.md)
  
 </p>
-<img src="https://github.com/ayadav10491/Portfolio/blob/master/images/camvid.gif?raw=true" width="400" height="250"> <!-- <img src="https://github.com/ayadav10491/Portfolio/blob/master/images/size_comparison.jpg?raw=true"  width="300" height="200"/> -->
+<img src="https://github.com/ayadav10491/Portfolio/blob/master/images/camvid.gif?raw=true" width="400" height="200"> <!-- <img src="https://github.com/ayadav10491/Portfolio/blob/master/images/size_comparison.jpg?raw=true"  width="300" height="200"/> -->
 
 ---
 
-### 2. Behaviour based Control Strategy for Double Ackermann  &nbsp;&nbsp;&nbsp;&nbsp; Steering Control of Bomag Autonomous Tandem Road Rollers
+### 2. Behaviour based Control Strategy for Double Ackermann  &nbsp;&nbsp;&nbsp;&nbsp; Steering Control of Bomag Autonomous Tandem Road &nbsp;&nbsp;&nbsp;&nbsp; Rollers
 
-<!-- <img src="https://github.com/ayadav10491/Portfolio/blob/master/images/robot_unreal.gif?raw=true" width="400" height="200"> --> <img src="https://github.com/ayadav10491/Portfolio/blob/master/images/robot_finroc.gif?raw=true"  width="400" height="250"/>
+<!-- <img src="https://github.com/ayadav10491/Portfolio/blob/master/images/robot_unreal.gif?raw=true" width="400" height="200"> --> <img src="https://github.com/ayadav10491/Portfolio/blob/master/images/robot_finroc.gif?raw=true"  width="400" height="225"/>
 
 
 ---
