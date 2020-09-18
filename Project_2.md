@@ -64,6 +64,10 @@ of the behaviour. It is interesting to note that, like the transfer function, ac
 <img src="https://github.com/ayadav10491/Portfolio/blob/master/images/architecture - Copy.png?raw=true" >
 <p align="center" style="font-size:12px"> REACTiON control architecture with Remote Interface [Wolf 18][Ropertz 18b] </p> 
 
+### Road Representation
+<img src="https://github.com/ayadav10491/Portfolio/blob/master/images/road_representation.png?raw=true" >
+<p align="center" style="font-size:12px"> Road R representation with Seam <b> <i>S</i>&#8407;</b> , Lane <b> <i>L</i>&#8407;</b>, Edge <b> <i>E</i>&#8407;</b>, Grid <b> <i>G</i>&#8407;</b> and Tracks <b> <i>T</i>&#8407;</b> [Wolf 19] </p> 
+
 
 <img src="https://github.com/ayadav10491/Portfolio/blob/master/images/robot_unreal.gif?raw=true" width="400" height="200">
 
