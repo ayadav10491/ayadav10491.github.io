@@ -70,7 +70,7 @@ of the behaviour. It is interesting to note that, like the transfer function, ac
 
 ### Methodology
 
-<img src="https://github.com/ayadav10491/Portfolio/blob/master/images/workflow.png?raw=true" >
+<img src="https://github.com/ayadav10491/Portfolio/blob/master/images/methodology.png?raw=true" >
 
 
 <img src="https://github.com/ayadav10491/Portfolio/blob/master/images/robot_unreal.gif?raw=true" width="400" height="200">
