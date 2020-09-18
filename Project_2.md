@@ -77,11 +77,32 @@ of the behaviour. It is interesting to note that, like the transfer function, ac
 <img src="https://github.com/ayadav10491/Portfolio/blob/master/images/bicycle_model.png?raw=true" >
 
 
-### Methodology
+## Concept and Implementation
 
 <img src="https://github.com/ayadav10491/Portfolio/blob/master/images/methodolgy.png?raw=true" >
+<p align="center" style="font-size:12px"> Schematic representation of the approach</p> 
 
+### Edge Compaction Behaviour 
+<img src="https://github.com/ayadav10491/Portfolio/blob/master/images/implementation_edge_compaction_behaviour.png?raw=true" >
 
+### Trajectory Decision based on Behaviour Fusion
+<img src="https://github.com/ayadav10491/Portfolio/blob/master/images/task_trajectory.png?raw=true" >
+
+### Trajectory Tracking 
+
+#### Pilot
+<img src="https://github.com/ayadav10491/Portfolio/blob/master/images/pilot.png?raw=true" >
+<p align="center" style="font-size:12px"> Pilot decides the maneuvering parameters</p> 
+
+#### Steering Controller
+Receives the maneuvering parameters from the Pilot and transforms them into wheel angles and velocity
+<img src="https://github.com/ayadav10491/Portfolio/blob/master/images/controller.png?raw=true" >
+<p align="center" style="font-size:12px">Controller input to ackermann steering hardware</p> 
+
+## Results
+
+### Simulation on Unreal Engine
 <img src="https://github.com/ayadav10491/Portfolio/blob/master/images/robot_unreal.gif?raw=true" width="400" height="200">
 
+### Simulation on FinGUi
 <img src="https://github.com/ayadav10491/Portfolio/blob/master/images/robot_finroc.gif?raw=true"  width="400" height="200"/>
