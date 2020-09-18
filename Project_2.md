@@ -30,7 +30,7 @@ the same to the edge compaction module of the navigation system. The manual edge
 <ul>
   <li> <b> Structure and Components </b> </li>
   <img src="https://github.com/ayadav10491/Portfolio/blob/master/images/ib2c_structure_.JPG?raw=true" width="500" height="180"> 
-<li> Behaviour Fusion </li>
+<li> <b> Behaviour Fusion </b> </li>
   <img src="https://github.com/ayadav10491/Portfolio/blob/master/images/fusion.png?raw=true"> 
   
   Behaviour fusion can be achieved using following techniques: 
