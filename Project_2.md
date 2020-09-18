@@ -49,7 +49,7 @@ of the behaviour. It is interesting to note that, like the transfer function, ac
 <li> <b> Behaviour Fusion </b> </li>
 
   <img src="https://github.com/ayadav10491/Portfolio/blob/master/images/fusion.png?raw=true"> 
-   <p align="center"> Behaviour group containing iB2C modules and iB2C fusion modules  </p> 
+   <p align="center" style="font-size:11px"> Behaviour group containing iB2C modules and iB2C fusion modules  </p> 
 
   Behaviour fusion can be achieved using following techniques: 
   <dl>
