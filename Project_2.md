@@ -57,7 +57,7 @@ of the behaviour. It is interesting to note that, like the transfer function, ac
   <dd>- <b> <i> Weighted Average Fusion <i/> </b> </dd>
   </dl>
 </ul>
-
+<br>
 
 ### Control Architecture Integrating Different Level Of Navigation Tasks 
 
