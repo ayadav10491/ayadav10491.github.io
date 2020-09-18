@@ -35,8 +35,8 @@ the same to the edge compaction module of the navigation system. The manual edge
   
   Behaviour fusion can be achieved using following techniques: 
   <dl>
-       <dd>- Maximum Fusion</dd>
-       <dd>- Weighted Average Fusion</dd>
+       <dd>- <b> Maximum Fusion </b> </dd>
+       <dd>- <b> Weighted Average Fusion </b> </dd>
   </dl>
 </ul>
 
