@@ -83,7 +83,7 @@ of the behaviour. It is interesting to note that, like the transfer function, ac
 <p align="center" style="font-size:12px"> Schematic representation of the approach</p> 
 
 ### Edge Compaction Behaviour 
-<img src="https://github.com/ayadav10491/Portfolio/blob/master/images/implementation_edge_compaction_behaviour.png?raw=true" >
+<img src="https://github.com/ayadav10491/Portfolio/blob/master/images/implementation_edge_compaction_behaviour - Copy.png?raw=true" >
 
 ### Trajectory Decision based on Behaviour Fusion
 <img src="https://github.com/ayadav10491/Portfolio/blob/master/images/task_trajectory.png?raw=true" >
