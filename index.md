@@ -11,22 +11,15 @@ This work explores the task of traffic scene segmentation using convolution neur
 <img src="https://github.com/ayadav10491/Portfolio/blob/master/images/camvid.gif?raw=true" width="350" height="200"> <!-- <img src="https://github.com/ayadav10491/Portfolio/blob/master/images/size_comparison.jpg?raw=true"  width="300" height="200"/> -->
 
 ---
-[Project 2 Title](/pdf/sample_presentation.pdf)
-<img src="images/dummy_thumbnail.jpg?raw=true"/>
+
+### 2. Behaviour based Control Strategy for Double Ackermann Steering Control of Bomag Autonomous Tandem Road Rollers
+
+<img src="https://github.com/ayadav10491/Portfolio/blob/master/images/robot_unreal.gif?raw=true" width="300" height="200"> <img src="https://github.com/ayadav10491/Portfolio/blob/master/images/robot_finroc.gif?raw=true"  width="300" height="200"/>
+
 
 ---
 [Project 3 Title](http://example.com/)
 <img src="images/dummy_thumbnail.jpg?raw=true"/>
-
----
-
-### Category Name 2
-
-- [Project 1 Title](http://example.com/)
-- [Project 2 Title](http://example.com/)
-- [Project 3 Title](http://example.com/)
-- [Project 4 Title](http://example.com/)
-- [Project 5 Title](http://example.com/)
 
 ---
 
