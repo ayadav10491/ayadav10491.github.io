@@ -18,6 +18,9 @@ the same to the edge compaction module of the navigation system. The manual edge
 <li> Crab angle calculation </li>
 <li> Trajectory tracking with crab behaviour activated </li>
 <li> Edge Cutter activation </li>
+<li> Simulation using Unreal Engine and Finroc (ROS inspired tool) </li>
+
+
 </ul>
 
 <img src="https://github.com/ayadav10491/Portfolio/blob/master/images/robot_unreal.gif?raw=true" width="300" height="200"> <img src="https://github.com/ayadav10491/Portfolio/blob/master/images/robot_finroc.gif?raw=true"  width="300" height="200"/>
