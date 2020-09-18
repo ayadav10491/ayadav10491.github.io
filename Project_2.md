@@ -1,6 +1,6 @@
 ## Behaviour based Control Strategy for Double Ackermann Steering Control of Autonomous Tandem Road Rollers
 
-<b><i>v &#8407;</i></b>
+<b><i>v</i>&#8407;</b>
 
 
 ### Objective
