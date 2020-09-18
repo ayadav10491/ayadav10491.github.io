@@ -29,7 +29,7 @@ the same to the edge compaction module of the navigation system. The manual edge
 
 <ul>
 <li> Structure and Components </li>
-  <img src="https://github.com/ayadav10491/Portfolio/blob/master/images/ib2c_structure.JPG?raw=true" width="300" height="200"> 
+  <img src="https://github.com/ayadav10491/Portfolio/blob/master/images/ib2c_structure.JPG?raw=true" width="500" height="180"> 
 <li> Behaviour Fusion </li>
 </ul>
 
