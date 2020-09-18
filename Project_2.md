@@ -42,9 +42,9 @@ the same to the edge compaction module of the navigation system. The manual edge
 <p align="justify">
 where, <b><i> f<sub>a </sub> </b></i> is the activity function,  <b><i> f<sub>r</sub> </b></i> is the target rating function,  <b><i> F</b></i> is the transfer function
 of the behaviour. It is interesting to note that, like the transfer function, activation function  <b><i> f<sub>a </sub> </b></i> is a function of <b> <i>e</i>&#8407;</b> and <b><i>l </i> </b> ; and also defines activity signal <b><i>a</i> </b>  and activity vector <b> <i>a</i>&#8407;</b> . </p>
-  <p align="center">
+  
   <img src="https://github.com/ayadav10491/Portfolio/blob/master/images/ib2c_structure_.JPG?raw=true"> 
-   The basic design of iB2C Behavior and Percept module  </p> 
+ <p align="center" style="font-size:8px"> The basic design of iB2C Behavior and Percept module  </p> 
   
 <li> <b> Behaviour Fusion </b> </li>
 
