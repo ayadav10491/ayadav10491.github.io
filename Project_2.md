@@ -47,9 +47,9 @@ of the behaviour. It is interesting to note that, like the transfer function, ac
    The basic design of iB2C Behavior and Percept module  </p> 
   
 <li> <b> Behaviour Fusion </b> </li>
- <p align="center">
+
   <img src="https://github.com/ayadav10491/Portfolio/blob/master/images/fusion.png?raw=true"> 
-  Behaviour group containing iB2C modules and iB2C fusion modules  </p> 
+   <p align="center"> Behaviour group containing iB2C modules and iB2C fusion modules  </p> 
 
   Behaviour fusion can be achieved using following techniques: 
   <dl>
