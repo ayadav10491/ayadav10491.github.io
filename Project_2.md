@@ -36,7 +36,7 @@ the same to the edge compaction module of the navigation system. The manual edge
   
   <p align="center"> <b><i>l </i> </b> = <b><i>s </i> </b> (1 - <b><i>i </i> </b>) </p>
   
- The activation signal ( <b><i>l </i> </b> ), further helps in defining a transfer function <b> <i> F( e&#8407;, l) </i></b> which later defines the respective output vector ~u of the system i.e. F(~e, ) = ~u. The data from sensors, (e.g. distance measurements, acceleration) also forms an input vector <b> <i> e &#8712; R<sub>m </sub> </i> </b>. The activation  also limits the activity a of the behaviour B, such that   a. Behaviour B can thus be described as:
+ The activation signal ( <b><i>l </i> </b> ), further helps in defining a transfer function <b> <i> F( <b> <i>e</i>&#8407;</b>;, l) </i></b> which later defines the respective output vector ~u of the system i.e. F(~e, ) = ~u. The data from sensors, (e.g. distance measurements, acceleration) also forms an input vector <b> <i> e &#8712; R<sub>m </sub> </i> </b>. The activation  also limits the activity a of the behaviour B, such that   a. Behaviour B can thus be described as:
 <p align="center"> B = (fa, fr, F)  </p>
   
   <img src="https://github.com/ayadav10491/Portfolio/blob/master/images/ib2c_structure_.JPG?raw=true" width="500" height="180"> 
