@@ -10,11 +10,14 @@ the same to the edge compaction module of the navigation system. The manual edge
 ### Workflow
 
 <ul>
-<li> Analysis of road data collected by Paver. </li>
-<li> Retrieve the edge spline from the Road. </li>
-<li> Analysis of remote interface and transferring the edge information to the roller. </li>
-<li> Collect the edge spline information in the roller navigator and offset the spline. </li>
-<li> Decision making for the Edge Compaction if the roller has edge cutter hardware. </li>
+<li> Analysis of Behaviour based Control Strategy </li>
+<li> Study of control architecture and communication protocol </li>
+<li> Road representation </li>
+<li> Edge extraction </li>
+<li> Trajectory creation </li>
+<li> Crab angle calculation </li>
+<li> Trajectory tracking with crab behaviour activated </li>
+<li> Edge Cutter activation </li>
 </ul>
 
 <img src="https://github.com/ayadav10491/Portfolio/blob/master/images/robot_unreal.gif?raw=true" width="300" height="200"> <img src="https://github.com/ayadav10491/Portfolio/blob/master/images/robot_finroc.gif?raw=true"  width="300" height="200"/>
