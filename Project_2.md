@@ -23,7 +23,7 @@ the same to the edge compaction module of the navigation system. The manual edge
 <li> Simulation using Unreal Engine and Finroc (ROS inspired tool) </li>
 </ul>
 
-## Methodology
+## Literature Research
 
 ### Integrated Behaviour based Control Strategy (iB2C)
 
@@ -64,9 +64,13 @@ of the behaviour. It is interesting to note that, like the transfer function, ac
 <img src="https://github.com/ayadav10491/Portfolio/blob/master/images/architecture - Copy.png?raw=true" >
 <p align="center" style="font-size:12px"> REACTiON control architecture with Remote Interface [Wolf 18][Ropertz 18b] </p> 
 
-### Road Representation
+### Road Representation and Edge Extraction
 <img src="https://github.com/ayadav10491/Portfolio/blob/master/images/road_representation.png?raw=true" >
 <p align="center" style="font-size:12px"> Road R representation with Seam <b> <i>S</i>&#8407;</b> , Lane <b> <i>L</i>&#8407;</b>, Edge <b> <i>E</i>&#8407;</b>, Grid <b> <i>G</i>&#8407;</b> and Tracks <b> <i>T</i>&#8407;</b> [Wolf 19] </p> 
+
+### Methodology
+
+<img src="https://github.com/ayadav10491/Portfolio/blob/master/images/workflow.png?raw=true" >
 
 
 <img src="https://github.com/ayadav10491/Portfolio/blob/master/images/robot_unreal.gif?raw=true" width="400" height="200">
