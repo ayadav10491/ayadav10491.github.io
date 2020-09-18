@@ -44,12 +44,12 @@ where, <b><i> f<sub>a </sub> </b></i> is the activity function,  <b><i> f<sub>r<
 of the behaviour. It is interesting to note that, like the transfer function, activation function  <b><i> f<sub>a </sub> </b></i> is a function of <b> <i>e</i>&#8407;</b> and <b><i>l </i> </b> ; and also defines activity signal <b><i>a</i> </b>  and activity vector <b> <i>a</i>&#8407;</b> . </p>
   
   <img src="https://github.com/ayadav10491/Portfolio/blob/master/images/ib2c_structure_.JPG?raw=true"> 
- <p align="center" style="font-size:8px"> The basic design of iB2C Behavior and Percept module  </p> 
+ <p align="center" style="font-size:10px"> The basic design of iB2C Behavior and Percept module  </p> 
   
 <li> <b> Behaviour Fusion </b> </li>
 
   <img src="https://github.com/ayadav10491/Portfolio/blob/master/images/fusion.png?raw=true"> 
-   <p align="center" style="font-size:8px"> Behaviour group containing iB2C modules and iB2C fusion modules  </p> 
+   <p align="center" style="font-size:10px"> Behaviour group containing iB2C modules and iB2C fusion modules  </p> 
 
   Behaviour fusion can be achieved using following techniques: 
   <dl>
