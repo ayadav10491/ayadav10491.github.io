@@ -98,7 +98,7 @@ of the behaviour. It is interesting to note that, like the transfer function, ac
 
 Receives the maneuvering parameters from the Pilot and transforms them into wheel angles and velocity
 <img src="https://github.com/ayadav10491/Portfolio/blob/master/images/controller.png?raw=true" >
-<p align="center" style="font-size:12px">Controller input to ackermann steering hardware</p>  <br>
+<p align="justify" style="font-size:12px">Controller input to ackermann steering hardware</p>  <br>
 
 ## Results
 
