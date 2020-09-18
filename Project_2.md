@@ -28,7 +28,7 @@ the same to the edge compaction module of the navigation system. The manual edge
 [Proetzsch 10] proposed a behaviour based control architecture iB2C for the development of complex robotic systems. “It is shown how architectural principles support several behaviour based mechanisms, e. g. coordination mechanisms, behaviour interaction, and hierarchical abstraction”.
 
 <ul>
-<li> Structure and Components </li>
+  <li> <b> Structure and Components </b> </li>
   <img src="https://github.com/ayadav10491/Portfolio/blob/master/images/ib2c_structure_.JPG?raw=true" width="500" height="180"> 
 <li> Behaviour Fusion </li>
   <img src="https://github.com/ayadav10491/Portfolio/blob/master/images/fusion.png?raw=true"> 
