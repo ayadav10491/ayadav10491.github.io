@@ -1,15 +1,15 @@
-## Behaviour based Control Strategy for Double Ackermann Steering Control of Autonomous Tandem Road Rollers
+# Behaviour based Control Strategy for Double Ackermann Steering Control of Autonomous Tandem Road Rollers
 
 
 
-### Objective
+## Objective
 
 <p align="justify">
 The project work is an attempt to explore the autonomous capabilities of tandem rollers in the road construction. The project specifically focuses on analyzing the dynamics and
 kinematics of tandem rollers, understanding the previously developed work on autonomous navigation including different levels of controls based on perception; later, extending
 the same to the edge compaction module of the navigation system. The manual edge compaction for a roller is a complicated task which requires a skilled driver to drive through the edge with the front edge cutter and keeping the rear wheels away from the edge. The autonomous edge controller is an attempt to remove the driver involvement with the automated crab walk application in the roller.  </p>
 
-### Workflow
+## Workflow
 
 <ul>
 <li> Analysis of Behaviour based Control Strategy </li>
@@ -23,9 +23,9 @@ the same to the edge compaction module of the navigation system. The manual edge
 <li> Simulation using Unreal Engine and Finroc (ROS inspired tool) </li>
 </ul>
 
-### Methodology
+## Methodology
 
-#### Integrated Behaviour based Control Strategy (iB2C)
+### Integrated Behaviour based Control Strategy (iB2C)
 
 [Proetzsch 10] proposed a behaviour based control architecture iB2C for the development of complex robotic systems. “It is shown how architectural principles support several behaviour based mechanisms, e. g. coordination mechanisms, behaviour interaction, and hierarchical abstraction”.
 
@@ -59,7 +59,7 @@ of the behaviour. It is interesting to note that, like the transfer function, ac
 </ul>
 
 
-#### Control Architecture Integrating Different Level Of Navigation Tasks 
+### Control Architecture Integrating Different Level Of Navigation Tasks 
 
 <img src="https://github.com/ayadav10491/Portfolio/blob/master/images/architecture - Copy.png?raw=true" >
 <p align="center" style="font-size:12px"> REACTiON control architecture with Remote Interface [Wolf 18][Ropertz 18b] </p> 
