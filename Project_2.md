@@ -32,6 +32,12 @@ the same to the edge compaction module of the navigation system. The manual edge
   <img src="https://github.com/ayadav10491/Portfolio/blob/master/images/ib2c_structure_.JPG?raw=true" width="500" height="180"> 
 <li> Behaviour Fusion </li>
   <img src="https://github.com/ayadav10491/Portfolio/blob/master/images/fusion.png?raw=true"> 
+  
+  Behaviour fusion can be achieved using following techniques: 
+  <dl>
+       <dd>- Maximum Fusion</dd>
+       <dd>- Weighted Average Fusion</dd>
+  </dl>
 </ul>
 
 <img src="https://github.com/ayadav10491/Portfolio/blob/master/images/robot_unreal.gif?raw=true" width="300" height="200"> <img src="https://github.com/ayadav10491/Portfolio/blob/master/images/robot_finroc.gif?raw=true"  width="300" height="200"/>
