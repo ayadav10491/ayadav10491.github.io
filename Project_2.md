@@ -47,8 +47,10 @@ of the behaviour. It is interesting to note that, like the transfer function, ac
    The basic design of iB2C Behavior and Percept module  </p> 
   
 <li> <b> Behaviour Fusion </b> </li>
+ <p align="center">
   <img src="https://github.com/ayadav10491/Portfolio/blob/master/images/fusion.png?raw=true"> 
-  
+  Behaviour group containing iB2C modules and iB2C fusion modules  </p> 
+
   Behaviour fusion can be achieved using following techniques: 
   <dl>
   <dd>- <b> <i> Maximum Fusion </i> </b> </dd>
@@ -58,9 +60,7 @@ of the behaviour. It is interesting to note that, like the transfer function, ac
 
 
 ### Control Architecture Integrating Different Level Of Navigation Tasks 
- <p align="center">
 <img src="https://github.com/ayadav10491/Portfolio/blob/master/images/robot_unreal.gif?raw=true" width="400" height="200">
- Behaviour group containing iB2C modules and iB2C fusion modules  </p> 
 
 <img src="https://github.com/ayadav10491/Portfolio/blob/master/images/robot_unreal.gif?raw=true" width="400" height="200">
 
