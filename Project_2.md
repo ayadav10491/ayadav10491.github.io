@@ -59,7 +59,7 @@ of the behaviour. It is interesting to note that, like the transfer function, ac
 </ul>
 <br>
 
-### Control Architecture Integrating Different Level Of Navigation Tasks 
+#### Control Architecture Integrating Different Level Of Navigation Tasks 
 
 <img src="https://github.com/ayadav10491/Portfolio/blob/master/images/architecture - Copy.png?raw=true" >
 <p align="center" style="font-size:12px"> REACTiON control architecture with Remote Interface [Wolf 18][Ropertz 18b] </p> 
