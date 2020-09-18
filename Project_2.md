@@ -54,13 +54,12 @@ of the behaviour. It is interesting to note that, like the transfer function, ac
   Behaviour fusion can be achieved using following techniques: 
   <dl>
   <dd>- <b> <i> Maximum Fusion </i> </b> </dd>
-  <dd>- <b> <i> Weighted Average Fusion <i/> </b> </dd>
+  <dd>- <b> <i> Weighted Average Fusion </i> </b> </dd>
   </dl>
 </ul>
 
 
 #### Control Architecture Integrating Different Level Of Navigation Tasks 
-#### Integrated Behaviour based Control Strategy (iB2C)
 
 <img src="https://github.com/ayadav10491/Portfolio/blob/master/images/architecture - Copy.png?raw=true" >
 <p align="center" style="font-size:12px"> REACTiON control architecture with Remote Interface [Wolf 18][Ropertz 18b] </p> 
