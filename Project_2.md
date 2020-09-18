@@ -37,7 +37,7 @@ the same to the edge compaction module of the navigation system. The manual edge
   <p align="center"> <b><i>l </i> </b> = <b><i>s </i> </b> (1 - <b><i>i </i> </b>) </p>
   
  The activation signal ( <b><i>l </i> </b> ), further helps in defining a transfer function <b><i>F</i></b> ( <b> <i>e</i>&#8407;</b>,  <b><i>l </i> </b> ) which later defines the respective output vector <b> <i>u</i>&#8407;</b> of the system i.e. F </i></b> ( <b> <i>e</i>&#8407;</b>,  <b><i>l </i> </b> ) = <b> <i>u</i>&#8407;</b>. The data from sensors, (e.g. distance measurements, acceleration) also forms an input vector <b> <i> e &#8712; R<sub>m </sub> </i> </b>. The activation <b> <i>l</i></b> also limits the activity <b> <i>a </i></b>  of the behaviour <b> <i>B</i></b>, such that <b> <i>l&#8804; a </i></b> . Behaviour  <b> <i>B</i></b> can thus be described as:
-<p align="center">  <b><i>B</i></b> = (<b><i> f<sub>a </sub>, f<sub>r</sub>, F </b></i>)  </p> 
+<p align="center">  <b><i>B</i></b> = (<b><i> f<sub>a </sub> , f<sub>r</sub> , F </b></i>)  </p> 
   
 where, <b><i> f<sub>a </sub> </b></i> is the activity function,  <b><i> f<sub>r</sub> </b></i> is the target rating function,  <b><i> F</b></i> is the transfer function
 of the behaviour. It is interesting to note that, like the transfer function, activation function  <b><i> f<sub>a </sub> </b></i> is a function of <b> <i>e</i>&#8407;</b> and <b><i>l </i> </b> ; and also defines activity signal <b><i>a</i> </b>  and activity vector <b> <i>a</i>&#8407;</b> .
