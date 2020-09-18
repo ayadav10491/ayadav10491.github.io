@@ -96,14 +96,14 @@ of the behaviour. It is interesting to note that, like the transfer function, ac
 
 #### Steering Controller
 
-Receives the maneuvering parameters from the Pilot and transforms them into wheel angles and velocity
+Receives the maneuvering parameters from the Pilot and transforms them into wheel angles and velocity <br>
 <img src="https://github.com/ayadav10491/Portfolio/blob/master/images/controller.png?raw=true" >
 <p align="justify" style="font-size:12px">Controller input to ackermann steering hardware</p>  <br>
 
 ## Results
 
 ### Simulation on Unreal Engine
-<img src="https://github.com/ayadav10491/Portfolio/blob/master/images/robot_unreal.gif?raw=true" width="400" height="200"> <br>
+<img src="https://github.com/ayadav10491/Portfolio/blob/master/images/robot_unreal.gif?raw=true" width="500" height="250"> <br>
 
 ### Simulation on FinGUi
-<img src="https://github.com/ayadav10491/Portfolio/blob/master/images/robot_finroc.gif?raw=true"  width="400" height="200"/><br>
+<img src="https://github.com/ayadav10491/Portfolio/blob/master/images/robot_finroc.gif?raw=true"  width="500" height="250"/><br>
