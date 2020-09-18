@@ -25,7 +25,7 @@ the same to the edge compaction module of the navigation system. The manual edge
 
 ### Methodology
 
-#### Integrated Behaviour based Control Strategy 
+#### Integrated Behaviour based Control Strategy (iB2C)
 
 [Proetzsch 10] proposed a behaviour based control architecture iB2C for the development of complex robotic systems. “It is shown how architectural principles support several behaviour based mechanisms, e. g. coordination mechanisms, behaviour interaction, and hierarchical abstraction”.
 
@@ -44,6 +44,7 @@ where, <b><i> f<sub>a </sub> </b></i> is the activity function,  <b><i> f<sub>r<
 of the behaviour. It is interesting to note that, like the transfer function, activation function  <b><i> f<sub>a </sub> </b></i> is a function of <b> <i>e</i>&#8407;</b> and <b><i>l </i> </b> ; and also defines activity signal <b><i>a</i> </b>  and activity vector <b> <i>a</i>&#8407;</b> . </p>
   
   <img src="https://github.com/ayadav10491/Portfolio/blob/master/images/ib2c_structure_.JPG?raw=true"> 
+  <p align="center"> The basic design of iB2C Behavior and Percept module  </p> 
   
 <li> <b> Behaviour Fusion </b> </li>
   <img src="https://github.com/ayadav10491/Portfolio/blob/master/images/fusion.png?raw=true"> 
@@ -54,6 +55,12 @@ of the behaviour. It is interesting to note that, like the transfer function, ac
   <dd>- <b> <i> Weighted Average Fusion <i/> </b> </dd>
   </dl>
 </ul>
+
+
+### Control Architecture Integrating Different Level Of Navigation Tasks 
+
+<img src="https://github.com/ayadav10491/Portfolio/blob/master/images/robot_unreal.gif?raw=true" width="400" height="200">
+ <p align="center"> Behaviour group containing iB2C modules and iB2C fusion modules  </p> 
 
 <img src="https://github.com/ayadav10491/Portfolio/blob/master/images/robot_unreal.gif?raw=true" width="400" height="200">
 
