@@ -98,9 +98,9 @@ of the behaviour. It is interesting to note that, like the transfer function, ac
   
 <li>  <b>Steering Controller </b>
 
-Receives the maneuvering parameters from the Pilot and transforms them into wheel angles and velocity <br>
+<p>Receives the maneuvering parameters from the Pilot and transforms them into wheel angles and velocity </p> <br>
 <img src="https://github.com/ayadav10491/Portfolio/blob/master/images/controller.png?raw=true" >
-<p align="justify" style="font-size:12px">Controller input to ackermann steering hardware</p>  <br>
+<p align="center" style="font-size:12px">Controller input to ackermann steering hardware</p>  <br>
 </li>
 
 </ul>
