@@ -90,16 +90,19 @@ of the behaviour. It is interesting to note that, like the transfer function, ac
 
 ### Trajectory Tracking 
 
-#### Pilot
+<ul>
+  <li>Pilot
 <img src="https://github.com/ayadav10491/Portfolio/blob/master/images/pilot.png?raw=true" >
 <p align="center" style="font-size:12px"> Pilot decides the maneuvering parameters</p> 
-
-#### Steering Controller
+</li>
+<li>Steering Controller
 
 Receives the maneuvering parameters from the Pilot and transforms them into wheel angles and velocity <br>
 <img src="https://github.com/ayadav10491/Portfolio/blob/master/images/controller.png?raw=true" >
 <p align="justify" style="font-size:12px">Controller input to ackermann steering hardware</p>  <br>
+</li>
 
+</ul>
 ## Results
 
 ### Simulation on Unreal Engine
