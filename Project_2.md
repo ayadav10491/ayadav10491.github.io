@@ -91,11 +91,12 @@ of the behaviour. It is interesting to note that, like the transfer function, ac
 ### Trajectory Tracking 
 
 <ul>
-  <li>Pilot
+  <li>  Pilot
 <img src="https://github.com/ayadav10491/Portfolio/blob/master/images/pilot.png?raw=true" >
 <p align="center" style="font-size:12px"> Pilot decides the maneuvering parameters</p> 
 </li>
-<li>Steering Controller
+  
+<li>  Steering Controller
 
 Receives the maneuvering parameters from the Pilot and transforms them into wheel angles and velocity <br>
 <img src="https://github.com/ayadav10491/Portfolio/blob/master/images/controller.png?raw=true" >
@@ -103,6 +104,7 @@ Receives the maneuvering parameters from the Pilot and transforms them into whee
 </li>
 
 </ul>
+
 ## Results
 
 ### Simulation on Unreal Engine
