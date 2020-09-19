@@ -1,18 +1,17 @@
 # Behaviour based Control Strategy for Double Ackermann Steering Control of Autonomous Tandem Road Rollers
 
 
-
+---
 ## Objective
-
+---
 <p align="justify">
 The project work is an attempt to explore the autonomous capabilities of tandem rollers in the road construction. The project specifically focuses on analyzing the dynamics and
 kinematics of tandem rollers, understanding the previously developed work on autonomous navigation including different levels of controls based on perception; later, extending
 the same to the edge compaction module of the navigation system. The manual edge compaction for a roller is a complicated task which requires a skilled driver to drive through the edge with the front edge cutter and keeping the rear wheels away from the edge. The autonomous edge controller is an attempt to remove the driver involvement with the automated crab walk application in the roller.  </p>
 
 ---
-
 ## Workflow
-
+---
 <ul>
 <li> Analysis of Behaviour based Control Strategy </li>
 <li> Study of control architecture and communication protocol </li>
@@ -26,9 +25,8 @@ the same to the edge compaction module of the navigation system. The manual edge
 </ul>
 
 ---
-
 ## Backgroud
-
+---
 ### Integrated Behaviour based Control Strategy (iB2C)
 
 [Proetzsch 10] proposed a behaviour based control architecture iB2C for the development of complex robotic systems. “It is shown how architectural principles support several behaviour based mechanisms, e. g. coordination mechanisms, behaviour interaction, and hierarchical abstraction”.
@@ -72,9 +70,8 @@ of the behaviour. It is interesting to note that, like the transfer function, ac
 <img src="https://github.com/ayadav10491/Portfolio/blob/master/images/ammacoa.png?raw=true" > <br>
 
 ---
-
 ## Related Work 
-
+---
 ### Road Representation and Edge Extraction
 <img src="https://github.com/ayadav10491/Portfolio/blob/master/images/road_representation.png?raw=true" >
 <p align="center" style="font-size:12px"> Road R representation with Seam <b> <i>S</i>&#8407;</b> , Lane <b> <i>L</i>&#8407;</b>, Edge <b> <i>E</i>&#8407;</b>, Grid <b> <i>G</i>&#8407;</b> and Tracks <b> <i>T</i>&#8407;</b> [Wolf 19] </p>  <br>
@@ -83,9 +80,8 @@ of the behaviour. It is interesting to note that, like the transfer function, ac
 <img src="https://github.com/ayadav10491/Portfolio/blob/master/images/bicycle_model.png?raw=true" > <br>
 
 ---
-
 ## Concept and Implementation
-
+---
 <img src="https://github.com/ayadav10491/Portfolio/blob/master/images/methodolgy.png?raw=true" >
 <p align="center" style="font-size:12px"> Schematic representation of the approach</p> 
 
@@ -113,9 +109,8 @@ of the behaviour. It is interesting to note that, like the transfer function, ac
 </ul>
 
 ---
-
 ## Results
-
+---
 ### Simulation on Unreal Engine
 <img src="https://github.com/ayadav10491/Portfolio/blob/master/images/robot_unreal.gif?raw=true" width="500" height="250"> <br>
 
