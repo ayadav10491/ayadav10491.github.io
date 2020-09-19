@@ -92,7 +92,7 @@ of the behaviour. It is interesting to note that, like the transfer function, ac
 
 <ul>
   <li>  <b>Pilot </b>
-<img src="https://github.com/ayadav10491/Portfolio/blob/master/images/pilot.png?raw=true" >
+<div class="imageContainer"> <img src="https://github.com/ayadav10491/Portfolio/blob/master/images/pilot.png?raw=true" > </div>
 <p align="center" style="font-size:12px"> Pilot decides the maneuvering parameters</p> 
 </li>
   
