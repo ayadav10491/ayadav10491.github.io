@@ -9,6 +9,8 @@ The project work is an attempt to explore the autonomous capabilities of tandem 
 kinematics of tandem rollers, understanding the previously developed work on autonomous navigation including different levels of controls based on perception; later, extending
 the same to the edge compaction module of the navigation system. The manual edge compaction for a roller is a complicated task which requires a skilled driver to drive through the edge with the front edge cutter and keeping the rear wheels away from the edge. The autonomous edge controller is an attempt to remove the driver involvement with the automated crab walk application in the roller.  </p>
 
+---
+
 ## Workflow
 
 <ul>
@@ -22,6 +24,8 @@ the same to the edge compaction module of the navigation system. The manual edge
 <li> Edge Cutter activation </li>
 <li> Simulation using Unreal Engine and Finroc (ROS inspired tool) </li>
 </ul>
+
+---
 
 ## Backgroud
 
@@ -67,6 +71,8 @@ of the behaviour. It is interesting to note that, like the transfer function, ac
 ### Remote Interface based on 5G AMMCOA (Autonomous Mobile Machine Communication for Off-Road Applications) Protocol
 <img src="https://github.com/ayadav10491/Portfolio/blob/master/images/ammacoa.png?raw=true" > <br>
 
+---
+
 ## Related Work 
 
 ### Road Representation and Edge Extraction
@@ -76,6 +82,7 @@ of the behaviour. It is interesting to note that, like the transfer function, ac
 ### Bicycle Model
 <img src="https://github.com/ayadav10491/Portfolio/blob/master/images/bicycle_model.png?raw=true" > <br>
 
+---
 
 ## Concept and Implementation
 
@@ -104,6 +111,8 @@ of the behaviour. It is interesting to note that, like the transfer function, ac
 </li>
 
 </ul>
+
+---
 
 ## Results
 
