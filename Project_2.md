@@ -86,7 +86,7 @@ of the behaviour. It is interesting to note that, like the transfer function, ac
 <img src="https://github.com/ayadav10491/Portfolio/blob/master/images/implementation_edge_compaction_behaviour - Copy.png?raw=true" >
 
 ### Trajectory Decision based on Behaviour Fusion
-<img src="https://github.com/ayadav10491/Portfolio/blob/master/images/task_trajectory.png?raw=true" >
+<img src="https://github.com/ayadav10491/Portfolio/blob/master/images/task_trajectory.png?raw=true" > <br>
 
 ### Trajectory Tracking 
 
