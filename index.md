@@ -25,6 +25,17 @@ The projects explores the trajectory tracking application for road rollers durin
 
 
 ---
+### 3. Multi-Robot Formation Control using Graph Theory
+
+<p align="justify">
+The project is an attempt to achieve the decentralized multi-robot formation control with the help of graph theory. In particular, we have studied different characteristics of multi-robot systems and formation control strategies associated with them. The project consists of of three experiments involving the square formation control of four unicycle robots using decentralized coordination. <br>
+ 
+ <b>Index Terms</b> — Multi-Robot System (MRS), Graph Theory, Decentralized System, Consensus, Bias.
+<br> 
+
+[Explore more ...](/Project_3.md)
+
+</p>
 
 ---
 
