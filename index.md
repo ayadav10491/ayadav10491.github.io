@@ -5,8 +5,10 @@
 <p align="justify">
 This work explores the task of traffic scene segmentation using convolution neural network. The trained models are passed through 4 compression techniques (without quantization, Float16, Dynamic range, Int8) using TensorFlow Lite. The compression allows the model to achieve the maximum reduction of up to 91 percent with reduced noise. <br> 
  
- <i> <b>Keywords</b> — Computer Vision, Semantic Segmentation, Embedded Deep Learning, Model Compression, Quantization <br>
- <b>Tools</b> — Python, TensorFlow, Keras, TensorFlow Lite, Numpy, OpenCV, Embedded Device </i> <br>
+<p align="justify">
+<i> <b>Keywords</b> — Computer Vision, Semantic Segmentation, Embedded Deep Learning, Model Compression, Quantization <br>
+ <b>Tools</b> — Python, TensorFlow, Keras, TensorFlow Lite, Numpy, OpenCV, Embedded Device </i> <br> </p>
+
  
 [Explore more ...](/Project_1.md)
  
