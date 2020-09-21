@@ -10,7 +10,6 @@ This work explores the task of traffic scene segmentation using convolution neur
 <b>Tools</b> — Python, TensorFlow, Keras, TensorFlow Lite, Numpy, OpenCV, Embedded Device </i> </p>
 
 [Explore more ...](/Project_1.md)
- 
 </p>
 <img src="https://github.com/ayadav10491/Portfolio/blob/master/images/camvid.gif?raw=true" width="400" height="200"> <!-- <img src="https://github.com/ayadav10491/Portfolio/blob/master/images/size_comparison.jpg?raw=true"  width="300" height="200"/> -->
 
@@ -22,16 +21,15 @@ The projects explores the trajectory tracking application for road rollers durin
 
 <p align="justify">
 <i><b>Keywords</b> — Multi-Robot System (MRS), Navigation, Trajectory Creation, Trajectory Tracking, Autonomous Vehicle, Sensor Fusion, Behaviour Fusion, Remote Interface, Autonomous Vehicle Architecture  <br>
-<b>Tools</b> — C++, Finroc (ROS inspired platform), Fingui, Unreal Engine </i></p>
+<b>Tools</b> — C++, Finroc (ROS inspired platform), Fingui, Unreal Engine </i> </p>
  
 [Explore more ...](/Project_2.md)
-
 </p>
 
 <!-- <img src="https://github.com/ayadav10491/Portfolio/blob/master/images/robot_unreal.gif?raw=true" width="400" height="200"> --> <img src="https://github.com/ayadav10491/Portfolio/blob/master/images/robot_finroc.gif?raw=true" width="400" height="225"/>
 
-
 ---
+
 ### 3. Multi-Robot Formation Control using Graph Theory
 
 <p align="justify">
@@ -39,10 +37,9 @@ The project is an attempt to achieve the decentralized multi-robot formation con
  
 <p align="justify">
 <i><b>Keywords</b> — Multi-Robot System (MRS), Graph Theory, Decentralized System, Consensus Bias.  <br>
- <b>Tools</b> — MATLAB, Simulink  </i></p> 
+ <b>Tools</b> — MATLAB, Simulink </i> </p> 
  
 [Explore more ...](/Project_3.md)
-
 </p>
 
 ---
