@@ -39,8 +39,7 @@ The project is an attempt to achieve the decentralized multi-robot formation con
 <i><b>Keywords</b> — Multi-Robot System (MRS), Graph Theory, Decentralized System, Consensus Bias.  <br>
  <b>Tools</b> — MATLAB, Simulink </i> </p> 
  
-<!--[Explore more ...](href="/pdf/MBSE_Formation_Control.pdf")-->
-<a>href="/pdf/MBSE_Formation_Control.pdf">Explore more ...</a>
+[Explore more ...](href="pdf/MBSE_Formation_Control.pdf")
 
 </p>
 <p align="center">
