@@ -26,7 +26,7 @@ The projects explores the trajectory tracking application for road rollers durin
 [Explore more ...](/Project_2.md)
 </p>
 
-<!-- <img src="https://github.com/ayadav10491/Portfolio/blob/master/images/robot_unreal.gif?raw=true" width="400" height="200"> --> <img src="https://github.com/ayadav10491/Portfolio/blob/master/images/robot_finroc.gif?raw=true" width="400" height="225"/>
+<!-- <img src="https://github.com/ayadav10491/Portfolio/blob/master/images/robot_unreal.gif?raw=true" width="300" > --> <img src="https://github.com/ayadav10491/Portfolio/blob/master/images/robot_finroc.gif?raw=true" width="400" height="225"/>
 
 ---
 
@@ -41,8 +41,6 @@ The project is an attempt to achieve the decentralized multi-robot formation con
  
 [Explore more ...](/Project_3.md)
 </p>
-
-<img src="https://github.com/ayadav10491/Portfolio/blob/master/images/controller_mbse.png?raw=true" width="400" height="300"> <img src="https://github.com/ayadav10491/Portfolio/blob/master/images/graph.png?raw=true" height="200">
 
 ---
 
