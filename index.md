@@ -40,7 +40,7 @@ The project is an attempt to achieve the decentralized multi-robot formation con
  <b>Tools</b> — MATLAB, Simulink </i> </p> 
  
 [Explore more ...](<iframe
-    src="https://github.com/ayadav10491/Portfolio/blob/master/pdf/MBSE_Formation_Control.pdf">)
+    src="https://github.com/ayadav10491/Portfolio/blob/master/pdf/MBSE_Formation_Control.pdf"  width="100%" height="100%" style="border: none;">  </iframe>)
 
 </p>
 <p align="center">
