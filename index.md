@@ -1,4 +1,4 @@
-# Portfolio   <a href="https://github.com/ayadav10491/Portfolio/blob/master/Akash_Yadav_CV_DL.pdf"> Resume </a>)
+# Portfolio  &nbsp;&nbsp;&nbsp;&nbsp;  <a href="https://github.com/ayadav10491/Portfolio/blob/master/Akash_Yadav_CV_DL.pdf"> Resume </a>
 
 ---
 ### 1. Embedded Deep Learning based Semantic Segmentation &nbsp;&nbsp;&nbsp;&nbsp; using TensorFLow Lite
