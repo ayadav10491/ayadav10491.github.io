@@ -15,7 +15,7 @@ This work explores the task of traffic scene segmentation using convolution neur
 
 ---
 
-### 2. Behaviour based Control Strategy for Double Ackermann  &nbsp;&nbsp;&nbsp;&nbsp; Steering Control of Bomag Autonomous Tandem Road <br> &nbsp;&nbsp;&nbsp;&nbsp; Rollers
+### 2. Behaviour based Control Strategy for Double Ackermann  &nbsp;&nbsp;&nbsp;&nbsp; Steering Control of Autonomous Tandem Road <br> &nbsp;&nbsp;&nbsp;&nbsp; Rollers
 <p align="justify">
 The projects explores the trajectory tracking application for road rollers during edge compaction task. The roller receives path information from the paver through a remote interface. The algorithm extracts the edge spline of the path and then is offset to create a trajectory for the rollers to maneuvre. The behaviour based control strategy allows the rollers to switch to crab steering mode of the "Edge Compaction mode is activated. <br> 
 
