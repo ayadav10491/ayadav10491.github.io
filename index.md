@@ -1,4 +1,4 @@
-## PORTFOLIO     <button onclick="window.location.href='https://w3docs.com';">Certifications</button>
+## PORTFOLIO     <button onclick="window.location.href='https://w3docs.com';">CERTIFICATIONS</button>
 
 
 ---
