@@ -17,7 +17,7 @@ This work explores the task of traffic scene segmentation using convolution neur
 ### 2. Survey on Variational Scene Flow Estimation
 
 <p align="justify">
-The aim of the paper is to study various variational methods for scene flow estimation and classify them based on the camera setting and the energy formulation. The paper further focuses on to asses the optimization algorithms used in the literature and deduce a logical comparison in terms of deviation from the ground truth of different data sets. <br>
+The aim of the paper is to study various variational methods for scene flow estimation and classify them based on the camera setting and the energy formulation. The paper further focuses on to asses the optimization algorithms used in the literature and deduce a logical comparison in terms of deviation from the ground truth of different data sets. <br>
  
 <p align="justify">
 <i><b>Keywords</b> —  Scene flow, Optical flow, Disparity, dense flow, Variational Method, Optimization, Successive over smoothing SOR, Coarse-grain smoothing<br>
