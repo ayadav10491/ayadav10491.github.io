@@ -1,7 +1,7 @@
 ## PORTFOLIO
 
 ---
-### 1. Embedded Deep Learning based Semantic Segmentation &nbsp;&nbsp;&nbsp;&nbsp; using TensorFLow Lite
+### 1. Embedded Deep Learning based Semantic Segmentation using TensorFLow Lite
 <p align="justify">
 This work explores the task of traffic scene segmentation using convolution neural network. The trained models are passed through 4 compression techniques (without quantization, Float16, Dynamic range, Int8) using TensorFlow Lite. The compression allows the model to achieve the maximum reduction of up to 91 percent with reduced noise.<br> 
  
@@ -26,7 +26,7 @@ The aim of the paper is to study various variational methods for scene flow esti
 </p>
 
 
-### 2. Behaviour based Control Strategy for Double Ackermann  &nbsp;&nbsp;&nbsp;&nbsp; Steering Control of Autonomous Tandem Road Rollers
+### 2. Behaviour based Control Strategy for Double Ackermann Steering Control of Autonomous Tandem Road Rollers
 <p align="justify">
 The projects explores the trajectory tracking application for road rollers during edge compaction task. The roller receives path information from the paver through a remote interface. The algorithm extracts the edge spline of the path and then is offset to create a trajectory for the rollers to maneuvre. The behaviour based control strategy allows the rollers to switch to crab steering mode of the "Edge Compaction mode is activated. <br> 
 
