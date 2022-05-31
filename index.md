@@ -14,6 +14,17 @@ This work explores the task of traffic scene segmentation using convolution neur
 <img src="https://github.com/ayadav10491/Portfolio/blob/master/images/camvid.gif?raw=true" width="400" height="200"> <!-- <img src="https://github.com/ayadav10491/Portfolio/blob/master/images/size_comparison.jpg?raw=true"  width="300" height="200"/> -->
 
 ---
+### 2. Survey on Variational Scene Flow Estimation
+
+<p align="justify">
+The aim of the paper is to study various variational methods for scene flow estimation and classify them based on the camera setting and the energy formulation. The paper further focuses on to asses the optimization algorithms used in the literature and deduce a logical comparison in terms of deviation from the ground truth of different data sets. <br>
+ 
+<p align="justify">
+<i><b>Keywords</b> —  Scene flow, Optical flow, Disparity, dense flow, Variational Method, Optimization, Successive over smoothing SOR, Coarse-grain smoothing<br>
+ 
+<a href="https://github.com/ayadav10491/ayadav10491.github.io/blob/master/Akash_Yadav_Computer_Vision_Seminar_Report.pdf"> Read more ...</a>
+</p>
+
 
 ### 2. Behaviour based Control Strategy for Double Ackermann  &nbsp;&nbsp;&nbsp;&nbsp; Steering Control of Autonomous Tandem Road Rollers
 <p align="justify">
