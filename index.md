@@ -26,7 +26,7 @@ The aim of the paper is to study various variational methods for scene flow esti
 </p>
 
 
-### 2. Behaviour based Control Strategy for Double Ackermann Steering Control of Autonomous Tandem Road Rollers
+### 3. Behaviour based Control Strategy for Double Ackermann Steering Control of Autonomous Tandem Road Rollers
 <p align="justify">
 The projects explores the trajectory tracking application for road rollers during edge compaction task. The roller receives path information from the paver through a remote interface. The algorithm extracts the edge spline of the path and then is offset to create a trajectory for the rollers to maneuvre. The behaviour based control strategy allows the rollers to switch to crab steering mode of the "Edge Compaction mode is activated. <br> 
 
@@ -41,7 +41,7 @@ The projects explores the trajectory tracking application for road rollers durin
 
 ---
 
-### 3. Multi-Robot Formation Control using Graph Theory
+### 4. Multi-Robot Formation Control using Graph Theory
 
 <p align="justify">
 The project is an attempt to achieve the decentralized multi-robot formation control with the help of graph theory. In particular, we have studied different characteristics of multi-robot systems and formation control strategies associated with them. The project consists of of three experiments involving the square formation control of four unicycle robots using decentralized coordination. <br>
