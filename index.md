@@ -1,4 +1,4 @@
-## PORTFOLIO
+### <p style="color:red">PORTFOLIO  &ensp; &ensp; &ensp;    [CERTIFICATES](/Project_1.md)   &ensp; &ensp; &ensp;  [FUN EXPERIMENTS](/Project_1.md) </p>
 
 ---
 ### 1. Embedded Deep Learning based Semantic Segmentation using TensorFLow Lite
