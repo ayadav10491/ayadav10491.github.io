@@ -1,4 +1,4 @@
-### <p style="color:DodgerBlue">PORTFOLIO  &ensp; &ensp; &ensp;    [CERTIFICATES](/Project_1.md)   &ensp; &ensp; &ensp;  [FUN EXPERIMENTS](/Project_3.md) </p>
+### <p style="color:DodgerBlue">PORTFOLIO  &ensp; &ensp; &ensp;    [CERTIFICATES](/Project_1.md)   &ensp; &ensp; &ensp;  [COMPUTER VISION EXPERIMENTS](/Project_3.md) </p>
 
 ---
 ### 1. Embedded Deep Learning based Semantic Segmentation using TensorFLow Lite
