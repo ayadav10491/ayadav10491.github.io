@@ -1,3 +1,5 @@
+<img src="https://github.com/ayadav10491/ayadav10491.github.io/blob/master/images/microsoft-certified-azure-fundamentals.png?raw=true" width="125" height="125"/> 
+
 ### <p style="color:DodgerBlue">PORTFOLIO  &ensp; &ensp; [COMPUTER VISION EXPERIMENTS](/Project_3.md) </p>
 
 ---
