@@ -154,6 +154,121 @@ section {
     width: 100%;
 }
 
+/* Tech Stack Grid */
+.tech-stack-container {
+    background: var(--card-bg);
+    border-radius: 1rem;
+    padding: 2rem;
+    margin-bottom: 3rem;
+    box-shadow: 0 4px 6px -1px rgba(0, 49, 53, 0.05);
+    border: 1px solid rgba(0, 49, 53, 0.05);
+}
+
+.tech-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(80px, 1fr));
+    gap: 1.5rem;
+    text-align: center;
+    margin-top: 1.5rem;
+}
+
+.tech-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    transition: var(--transition);
+}
+
+.tech-item:hover {
+    background: var(--tag-bg);
+    transform: translateY(-3px);
+}
+
+.tech-item i {
+    font-size: 2.5rem;
+    color: var(--text-primary);
+}
+
+.tech-item span {
+    font-size: 0.8rem;
+    font-weight: 600;
+    color: var(--text-secondary);
+}
+
+/* Experience Section */
+.experience-list {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    margin-bottom: 3rem;
+}
+
+.experience-card {
+    background: var(--card-bg);
+    border-radius: 1rem;
+    padding: 2rem;
+    padding-left: 2rem;
+    border-left: 4px solid var(--accent-color);
+    box-shadow: 0 4px 6px -1px rgba(0, 49, 53, 0.05);
+}
+
+.exp-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 1rem;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.exp-company {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.company-logo {
+    width: 48px;
+    height: 48px;
+    object-fit: contain;
+    border-radius: 4px;
+    background: white;
+    padding: 2px;
+    border: 1px solid #eee;
+}
+
+.exp-role h3 {
+    margin: 0;
+    font-size: 1.2rem;
+}
+
+.exp-company-name {
+    font-weight: 600;
+    color: var(--accent-color);
+}
+
+.exp-date {
+    font-size: 0.9rem;
+    color: var(--text-secondary);
+    font-weight: 600;
+    background: var(--tag-bg);
+    padding: 0.25rem 0.75rem;
+    border-radius: 1rem;
+}
+
+.exp-details ul {
+    margin: 0;
+    padding-left: 1.2rem;
+    color: var(--text-secondary);
+}
+
+.exp-details li {
+    margin-bottom: 0.5rem;
+}
+
 /* Project Grid */
 .projects-grid {
     display: grid;

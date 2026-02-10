@@ -1,59 +1,67 @@
 <!DOCTYPE html>
-<html lang="{{ site.lang | default: "en-US" }}">
-  <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>{{ site.title | default: site.github.repository_name }}</title>
-    
-    <!-- Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
-    
-    <!-- CSS -->
-    <link rel="stylesheet" href="{{ "/assets/css/modern.css" | relative_url }}">
-    
-    {% seo %}
-  </head>
-  <body>
-    <div class="wrapper">
-      <header>
-        {% if site.logo %}
-          <img src="{{ site.logo | relative_url }}" alt="{{ site.title }}" />
+<html lang="{{ site.lang | default: " en-US" }}">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{ site.title | default: site.github.repository_name }}</title>
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+  <link rel="stylesheet" type='text/css' href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="{{ " /assets/css/modern.css" | relative_url }}">
+
+  {% seo %}
+</head>
+
+<body>
+  <div class="wrapper">
+    <header>
+      {% if site.logo %}
+      <img src="{{ site.logo | relative_url }}" alt="{{ site.title }}" />
+      {% endif %}
+
+      <h1><a href="{{ " /" | absolute_url }}">{{ site.title }}</a></h1>
+      <p>{{ site.description }}</p>
+
+      <div class="social-links">
+        {% if site.github.is_user_page %}
+        <a href="{{ site.github.owner_url }}" class="btn btn-outline" title="GitHub"><i class="fab fa-github"></i></a>
         {% endif %}
-        
-        <h1><a href="{{ "/" | absolute_url }}">{{ site.title }}</a></h1>
-        <p>{{ site.description }}</p>
+        <a href="https://www.linkedin.com/in/akash-yadav-10491/" class="btn btn-outline" title="LinkedIn"><i
+            class="fab fa-linkedin"></i></a>
+      </div>
 
-        <div class="social-links">
-            {% if site.github.is_user_page %}
-            <a href="{{ site.github.owner_url }}" class="btn btn-outline" title="GitHub"><i class="fab fa-github"></i></a>
-            {% endif %}
-            <a href="https://www.linkedin.com/in/akash-yadav-10491/" class="btn btn-outline" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
-        </div>
-        
-        <div style="margin-top: 1.5rem; display: flex; flex-direction: column; gap: 0.5rem;">
-            <a href="/CV/AkashYadav_Resume.pdf" class="btn btn-primary"><i class="fas fa-file-pdf"></i> Resume (EN)</a>
-            <a href="/CV/AkashYadav_Lebenslauf.pdf" class="btn btn-primary"><i class="fas fa-file-pdf"></i> Lebenslauf (DE)</a>
-        </div>
-      </header>
+      <div style="margin-top: 1.5rem; display: flex; flex-direction: column; gap: 0.5rem;">
+        <a href="/CV/AkashYadav_Resume.pdf" class="btn btn-primary"><i class="fas fa-file-pdf"></i> Resume (EN)</a>
+        <a href="/CV/AkashYadav_Lebenslauf.pdf" class="btn btn-primary"><i class="fas fa-file-pdf"></i> Lebenslauf
+          (DE)</a>
+      </div>
+    </header>
 
-      <section>
-        {{ content }}
-      </section>
-    </div>
+    <section>
+      {{ content }}
+    </section>
+  </div>
 
-    {% if site.google_analytics %}
-    <script>
-      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-      ga('create', '{{ site.google_analytics }}', 'auto');
-      ga('send', 'pageview');
-    </script>
-    {% endif %}
-  </body>
+  {% if site.google_analytics %}
+  <script>
+    (function (i, s, o, g, r, a, m) {
+      i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+        (i[r].q = i[r].q || []).push(arguments)
+      }, i[r].l = 1 * new Date(); a = s.createElement(o),
+        m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+    ga('create', '{{ site.google_analytics }}', 'auto');
+    ga('send', 'pageview');
+  </script>
+  {% endif %}
+</body>
+
 </html>
