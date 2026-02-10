@@ -1,3 +1,6 @@
+---
+layout: default
+---
 
 <!-- Technical Skills Section -->
 <h2>Technical Skills</h2>
