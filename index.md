@@ -1,65 +1,81 @@
-<img src="https://github.com/ayadav10491/ayadav10491.github.io/blob/master/images/microsoft-certified-azure-fundamentals.png?raw=true" width="125" height="125"/> 
 
-### <p style="color:DodgerBlue">PORTFOLIO  &ensp; &ensp; [COMPUTER VISION EXPERIMENTS](/Project_3.md) </p>
+<div class="projects-grid">
 
----
-### 1. Embedded Deep Learning based Semantic Segmentation using TensorFLow Lite
-<p align="justify">
-This work explores the task of traffic scene segmentation using convolution neural network. The trained models are passed through 4 compression techniques (without quantization, Float16, Dynamic range, Int8) using TensorFlow Lite. The compression allows the model to achieve the maximum reduction of up to 91 percent with reduced noise.<br> 
- 
-<p align="justify">
-<i> <b>Keywords</b> — Computer Vision, Semantic Segmentation, Embedded Deep-Learning, Model Compression, Quantization <br>
-<b>Tools</b> — Python, TensorFlow, Keras, TensorFlow Lite, Numpy, OpenCV, Embedded Device </i> </p>
+<!-- Project 1 -->
+<div class="project-card">
+    <h3>Embedded Deep Learning based Semantic Segmentation</h3>
+    <p>This work explores the task of traffic scene segmentation using convolution neural network. The trained models are passed through 4 compression techniques using TensorFlow Lite, achieving up to 91% size reduction.</p>
+    
+    <div class="media-container">
+        <img src="https://github.com/ayadav10491/Portfolio/blob/master/images/camvid.gif?raw=true" alt="Semantic Segmentation Demo">
+    </div>
 
-[Explore more ...](/Project_1.md)
-</p>
-<img src="https://github.com/ayadav10491/Portfolio/blob/master/images/camvid.gif?raw=true" width="400" height="200"> <!-- <img src="https://github.com/ayadav10491/Portfolio/blob/master/images/size_comparison.jpg?raw=true"  width="300" height="200"/> -->
+    <div class="project-meta">
+        <div class="tags">
+            <span class="tag">Computer Vision</span>
+            <span class="tag">Semantic Segmentation</span>
+            <span class="tag">TensorFlow Lite</span>
+            <span class="tag">Embedded Systems</span>
+        </div>
+        <a href="/Project_1.md" class="btn btn-outline" style="margin-top: 1rem; display: inline-block;">View Project Details</a>
+    </div>
+</div>
 
----
-### 2. Survey on Variational Scene Flow Estimation
+<!-- Project 2 -->
+<div class="project-card">
+    <h3>Survey on Variational Scene Flow Estimation</h3>
+    <p>A comprehensive study of variational methods for scene flow estimation, classifying them based on camera setting and energy formulation. The paper assesses optimization algorithms and compares their performance against ground truth data.</p>
+    
+    <div class="project-meta">
+        <div class="tags">
+            <span class="tag">Scene Flow</span>
+            <span class="tag">Optical Flow</span>
+            <span class="tag">Optimization</span>
+            <span class="tag">Research</span>
+        </div>
+        <a href="https://github.com/ayadav10491/ayadav10491.github.io/blob/master/Akash_Yadav_Computer_Vision_Seminar_Report.pdf" class="btn btn-outline" style="margin-top: 1rem; display: inline-block;">Read Paper (PDF)</a>
+    </div>
+</div>
 
-<p align="justify">
-The aim of the paper is to study various variational methods for scene flow estimation and classify them based on the camera setting and the energy formulation. The paper further focuses on to asses the optimization algorithms used in the literature and deduce a logical comparison in terms of deviation from the ground truth of different data sets. <br>
- 
-<p align="justify">
-<i><b>Keywords</b> —  Scene flow, Optical flow, Disparity, dense flow, Variational Method, Optimization, Successive over smoothing SOR, Coarse-grain smoothing<br>
- 
-<a href="https://github.com/ayadav10491/ayadav10491.github.io/blob/master/Akash_Yadav_Computer_Vision_Seminar_Report.pdf"> Read more ...</a>
-</p>
+<!-- Project 3 -->
+<div class="project-card">
+    <h3>Autonomous Double Ackermann Steering Control</h3>
+    <p>Trajectory tracking for road rollers during edge compaction. The system extracts edge splines from paver data and uses a behavior-based control strategy to switch maneuvering modes for precise navigation.</p>
+    
+    <div class="media-container">
+        <img src="https://github.com/ayadav10491/Portfolio/blob/master/images/robot_finroc.gif?raw=true" alt="Robot Simulation">
+    </div>
 
+    <div class="project-meta">
+        <div class="tags">
+            <span class="tag">Robotics</span>
+            <span class="tag">ROS/Finroc</span>
+            <span class="tag">C++</span>
+            <span class="tag">Control Systems</span>
+        </div>
+        <a href="/Project_2.md" class="btn btn-outline" style="margin-top: 1rem; display: inline-block;">View Project Details</a>
+    </div>
+</div>
 
-### 3. Behaviour based Control Strategy for Double Ackermann Steering Control of Autonomous Tandem Road Rollers
-<p align="justify">
-The projects explores the trajectory tracking application for road rollers during edge compaction task. The roller receives path information from the paver through a remote interface. The algorithm extracts the edge spline of the path and then is offset to create a trajectory for the rollers to maneuvre. The behaviour based control strategy allows the rollers to switch to crab steering mode of the "Edge Compaction mode is activated. <br> 
+<!-- Project 4 -->
+<div class="project-card">
+    <h3>Multi-Robot Formation Control</h3>
+    <p>Achieving decentralized multi-robot formation control using graph theory. The project involves coordinating four unicycle robots to maintain a square formation through decentralized consensus algorithms.</p>
+    
+    <div class="media-container" style="display: flex; gap: 1rem;">
+        <img src="https://github.com/ayadav10491/Portfolio/blob/master/images/controller_mbse.png?raw=true" alt="Controller Diagram" style="width: 48%;">
+        <img src="https://github.com/ayadav10491/Portfolio/blob/master/images/graph.png?raw=true" alt="Graph Theory" style="width: 48%;">
+    </div>
 
-<p align="justify">
-<i><b>Keywords</b> — Multi-Robot System (MRS), Navigation, Trajectory Creation, Trajectory Tracking, Autonomous Vehicle, Sensor Fusion, Behaviour Fusion, Remote Interface, Autonomous Vehicle Architecture  <br>
-<b>Tools</b> — C++, Finroc (ROS inspired platform), Fingui, Unreal Engine </i> </p>
- 
-[Explore more ...](/Project_2.md)
-</p>
+    <div class="project-meta">
+        <div class="tags">
+            <span class="tag">Multi-Robot Systems</span>
+            <span class="tag">Graph Theory</span>
+            <span class="tag">MATLAB</span>
+            <span class="tag">Control Theory</span>
+        </div>
+        <a href="https://github.com/ayadav10491/Portfolio/blob/master/pdf/MBSE_Formation_Control.pdf" class="btn btn-outline" style="margin-top: 1rem; display: inline-block;">View Report (PDF)</a>
+    </div>
+</div>
 
-<!-- <img src="https://github.com/ayadav10491/Portfolio/blob/master/images/robot_unreal.gif?raw=true" width="300" > --> <img src="https://github.com/ayadav10491/Portfolio/blob/master/images/robot_finroc.gif?raw=true" width="400" height="225"/>
-
----
-
-### 4. Multi-Robot Formation Control using Graph Theory
-
-<p align="justify">
-The project is an attempt to achieve the decentralized multi-robot formation control with the help of graph theory. In particular, we have studied different characteristics of multi-robot systems and formation control strategies associated with them. The project consists of of three experiments involving the square formation control of four unicycle robots using decentralized coordination. <br>
- 
-<p align="justify">
-<i><b>Keywords</b> — Multi-Robot System (MRS), Graph Theory, Decentralized System, Consensus Bias.  <br>
- <b>Tools</b> — MATLAB, Simulink </i> </p> 
- 
-<a href="https://github.com/ayadav10491/Portfolio/blob/master/pdf/MBSE_Formation_Control.pdf"> Explore more ...</a>
-
-</p>
-<p align="center">
-<img src="https://github.com/ayadav10491/Portfolio/blob/master/images/controller_mbse.png?raw=true" width="400" height=200 > <img src="https://github.com/ayadav10491/Portfolio/blob/master/images/graph.png?raw=true" height="200"/>
-</p>
-
----
-
-
-
+</div>
