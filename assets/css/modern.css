@@ -1,11 +1,21 @@
-/* Modern Dark Theme Variables */
+/* Modern Light Theme Variables */
 :root {
-    --bg-color: #0f172a;
-    --card-bg: #1e293b;
-    --text-primary: #f8fafc;
-    --text-secondary: #94a3b8;
-    --accent-color: #38bdf8;
-    --accent-hover: #0ea5e9;
+    --bg-color: #F3D9E5;
+    /* Mist Rose */
+    --card-bg: #FFFFFF;
+    /* White */
+    --text-primary: #4A3267;
+    /* Deep Purple */
+    --text-secondary: #7D6C8A;
+    /* Muted Purple */
+    --accent-color: #DE638A;
+    /* Dark Pink */
+    --accent-hover: #4A3267;
+    /* Deep Purple */
+    --tag-bg: #C6BADE;
+    /* Lavender */
+    --tag-text: #4A3267;
+    /* Deep Purple */
     --font-main: 'Inter', sans-serif;
     --transition: all 0.3s ease;
 }
@@ -18,6 +28,8 @@ body {
     margin: 0;
     padding: 0;
     line-height: 1.6;
+    background-image: linear-gradient(135deg, #F3D9E5 0%, #faeef3 100%);
+    min-height: 100vh;
 }
 
 a {
@@ -30,7 +42,12 @@ a:hover {
     color: var(--accent-hover);
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     color: var(--text-primary);
     margin-bottom: 1rem;
 }
@@ -53,8 +70,10 @@ header {
     background: var(--card-bg);
     padding: 2rem;
     border-radius: 1rem;
-    box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1);
+    box-shadow: 0 10px 25px -5px rgba(74, 50, 103, 0.1);
+    /* Colored shadow */
     text-align: center;
+    border: 1px solid rgba(255, 255, 255, 0.5);
 }
 
 header img {
@@ -64,11 +83,13 @@ header img {
     object-fit: cover;
     border: 4px solid var(--accent-color);
     margin-bottom: 1.5rem;
+    box-shadow: 0 4px 6px -1px rgba(222, 99, 138, 0.2);
 }
 
 header h1 {
     font-size: 1.5rem;
     margin-bottom: 0.5rem;
+    font-weight: 700;
 }
 
 header p {
@@ -88,30 +109,36 @@ header p {
     display: inline-block;
     padding: 0.5rem 1rem;
     border-radius: 0.5rem;
-    font-weight: 500;
+    font-weight: 600;
     transition: var(--transition);
     text-align: center;
     border: 1px solid var(--accent-color);
+    cursor: pointer;
 }
 
 .btn-primary {
     background: var(--accent-color);
-    color: var(--bg-color);
+    color: #FFFFFF;
+    border-color: var(--accent-color);
+    box-shadow: 0 4px 6px -1px rgba(222, 99, 138, 0.3);
 }
 
 .btn-primary:hover {
     background: var(--accent-hover);
-    color: var(--bg-color);
+    border-color: var(--accent-hover);
+    color: #FFFFFF;
     transform: translateY(-2px);
 }
 
 .btn-outline {
     background: transparent;
     color: var(--accent-color);
+    border-color: var(--accent-color);
 }
 
 .btn-outline:hover {
-    background: rgba(56, 189, 248, 0.1);
+    background: var(--accent-color);
+    color: #FFFFFF;
 }
 
 /* Main Content Area */
@@ -129,28 +156,38 @@ section {
     background: var(--card-bg);
     border-radius: 1rem;
     padding: 2rem;
-    box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1);
+    box-shadow: 0 4px 6px -1px rgba(74, 50, 103, 0.05);
     transition: var(--transition);
-    border: 1px solid rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(74, 50, 103, 0.05);
 }
 
 .project-card:hover {
     transform: translateY(-5px);
-    box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1);
+    box-shadow: 0 20px 25px -5px rgba(74, 50, 103, 0.1);
     border-color: var(--accent-color);
+}
+
+.project-card h3 {
+    margin-top: 0;
+    color: var(--text-primary);
+}
+
+.project-card p {
+    color: var(--text-secondary);
 }
 
 .project-card img {
     max-width: 100%;
     border-radius: 0.5rem;
     margin: 1rem 0;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05);
 }
 
 .project-meta {
     margin-top: 1rem;
     font-size: 0.9rem;
     color: var(--text-secondary);
-    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    border-top: 1px solid #eee;
     padding-top: 1rem;
 }
 
@@ -162,11 +199,12 @@ section {
 }
 
 .tag {
-    background: rgba(56, 189, 248, 0.1);
-    color: var(--accent-color);
+    background: var(--tag-bg);
+    color: var(--tag-text);
     padding: 0.25rem 0.75rem;
     border-radius: 1rem;
     font-size: 0.8rem;
+    font-weight: 500;
 }
 
 /* Responsive Design */
@@ -174,11 +212,12 @@ section {
     .wrapper {
         grid-template-columns: 1fr;
         padding: 1rem;
+        gap: 2rem;
     }
 
     header {
         position: relative;
         top: 0;
-        margin-bottom: 2rem;
+        margin-bottom: 1rem;
     }
 }
