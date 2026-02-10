@@ -2,104 +2,104 @@
 <!-- Technical Skills Section -->
 <h2>Technical Skills</h2>
 <div class="tech-stack-container">
-    <div class="tech-grid">
-        <div class="tech-item"><i class="devicon-csharp-plain"></i><span>C#</span></div>
-        <div class="tech-item"><i class="devicon-dotnetcore-plain"></i><span>.NET Core</span></div>
-        <div class="tech-item"><i class="devicon-python-plain"></i><span>Python</span></div>
-        <div class="tech-item"><i class="devicon-cplusplus-plain"></i><span>C++</span></div>
-        <div class="tech-item"><i class="devicon-azure-plain"></i><span>Azure</span></div>
-        <div class="tech-item"><i class="devicon-docker-plain"></i><span>Docker</span></div>
-        <div class="tech-item"><i class="devicon-git-plain"></i><span>Git</span></div>
-        <div class="tech-item"><i class="devicon-postgresql-plain"></i><span>PostgreSQL</span></div>
-        <div class="tech-item"><i class="devicon-opencv-plain"></i><span>OpenCV</span></div>
-        <div class="tech-item"><i class="devicon-tensorflow-original"></i><span>TensorFlow</span></div>
-    </div>
+<div class="tech-grid">
+<div class="tech-item"><i class="devicon-csharp-plain"></i><span>C#</span></div>
+<div class="tech-item"><i class="devicon-dotnetcore-plain"></i><span>.NET Core</span></div>
+<div class="tech-item"><i class="devicon-python-plain"></i><span>Python</span></div>
+<div class="tech-item"><i class="devicon-cplusplus-plain"></i><span>C++</span></div>
+<div class="tech-item"><i class="devicon-azure-plain"></i><span>Azure</span></div>
+<div class="tech-item"><i class="devicon-docker-plain"></i><span>Docker</span></div>
+<div class="tech-item"><i class="devicon-git-plain"></i><span>Git</span></div>
+<div class="tech-item"><i class="devicon-postgresql-plain"></i><span>PostgreSQL</span></div>
+<div class="tech-item"><i class="devicon-opencv-plain"></i><span>OpenCV</span></div>
+<div class="tech-item"><i class="devicon-tensorflow-original"></i><span>TensorFlow</span></div>
+</div>
 </div>
 
 <!-- Professional Experience Section -->
 <h2>Professional Experience</h2>
 <div class="experience-list">
 
-    <div class="experience-card">
-        <div class="exp-header">
-            <div class="exp-company">
-                <img src="https://logo.clearbit.com/berghaus-verkehrstechnik.de" onerror="this.src='https://ui-avatars.com/api/?name=Peter+Berghaus&background=random'" class="company-logo" alt="PB">
-                <div>
-                    <h3>Software Engineer | Intelligent Transportation Systems</h3>
-                    <div class="exp-company-name">Peter Berghaus GmbH</div>
-                </div>
-            </div>
-            <div class="exp-date">03/2025 - Present</div>
-        </div>
-        <div class="exp-details">
-            <ul>
-                <li><strong>Backend Development:</strong> Designed distributed systems using .NET 8/9 for industrial telemetry data processing.</li>
-                <li><strong>Sensor Monitoring:</strong> Developed real-time applications for monitoring sensors, cameras, and batteries.</li>
-                <li><strong>AI Leveraging:</strong> Used AI for legacy code analysis and automated test suite generation.</li>
-                <li><strong>Tech Stack:</strong> C# / .NET, ASP.NET Core, Entity Framework, MQTT, RabbitMQ, Docker.</li>
-            </ul>
-        </div>
-    </div>
+<div class="experience-card">
+<div class="exp-header">
+<div class="exp-company">
+<img src="https://logo.clearbit.com/berghaus-verkehrstechnik.de" onerror="this.src='https://ui-avatars.com/api/?name=Peter+Berghaus&background=random'" class="company-logo" alt="PB">
+<div>
+<h3>Software Engineer | Intelligent Transportation Systems</h3>
+<div class="exp-company-name">Peter Berghaus GmbH</div>
+</div>
+</div>
+<div class="exp-date">03/2025 - Present</div>
+</div>
+<div class="exp-details">
+<ul>
+<li><strong>Backend Development:</strong> Designed distributed systems using .NET 8/9 for industrial telemetry data processing.</li>
+<li><strong>Sensor Monitoring:</strong> Developed real-time applications for monitoring sensors, cameras, and batteries.</li>
+<li><strong>AI Leveraging:</strong> Used AI for legacy code analysis and automated test suite generation.</li>
+<li><strong>Tech Stack:</strong> C# / .NET, ASP.NET Core, Entity Framework, MQTT, RabbitMQ, Docker.</li>
+</ul>
+</div>
+</div>
 
-    <div class="experience-card">
-        <div class="exp-header">
-            <div class="exp-company">
-                <img src="https://logo.clearbit.com/capgemini.com" class="company-logo" alt="Capgemini">
-                <div>
-                    <h3>C#/.NET Software Developer | Design Automation</h3>
-                    <div class="exp-company-name">Capgemini Engineering</div>
-                </div>
-            </div>
-            <div class="exp-date">02/2021 - 02/2025</div>
-        </div>
-        <div class="exp-details">
-            <ul>
-                <li><strong>Vehicle Concept Platform App:</strong> Created WPF applications for VW vehicle development ecosystem.</li>
-                <li><strong>Automation:</strong> Process optimization using CATIA API, Entity Framework, and parsers.</li>
-                <li><strong>Agile Methodology:</strong> Worked in SCRUM environment with focus on Test-Driven Development (TDD).</li>
-                <li><strong>Tech Stack:</strong> C#/.NET, WPF, MVVM, Clean Architecture, Azure DevOps.</li>
-            </ul>
-        </div>
-    </div>
+<div class="experience-card">
+<div class="exp-header">
+<div class="exp-company">
+<img src="https://logo.clearbit.com/capgemini.com" class="company-logo" alt="Capgemini">
+<div>
+<h3>C#/.NET Software Developer | Design Automation</h3>
+<div class="exp-company-name">Capgemini Engineering</div>
+</div>
+</div>
+<div class="exp-date">02/2021 - 02/2025</div>
+</div>
+<div class="exp-details">
+<ul>
+<li><strong>Vehicle Concept Platform App:</strong> Created WPF applications for VW vehicle development ecosystem.</li>
+<li><strong>Automation:</strong> Process optimization using CATIA API, Entity Framework, and parsers.</li>
+<li><strong>Agile Methodology:</strong> Worked in SCRUM environment with focus on Test-Driven Development (TDD).</li>
+<li><strong>Tech Stack:</strong> C#/.NET, WPF, MVVM, Clean Architecture, Azure DevOps.</li>
+</ul>
+</div>
+</div>
 
-    <div class="experience-card">
-        <div class="exp-header">
-            <div class="exp-company">
-                <img src="https://logo.clearbit.com/uni-kl.de" class="company-logo" alt="RPTU">
-                <div>
-                    <h3>Research Assistant & Master's Thesis</h3>
-                    <div class="exp-company-name">Institute for Wireless Communication (WiCoN)</div>
-                </div>
-            </div>
-            <div class="exp-date">04/2019 - 01/2021</div>
-        </div>
-        <div class="exp-details">
-            <ul>
-                <li><strong>Drone Development:</strong> Developed drone systems for landscape analysis and environmental data collection.</li>
-                <li><strong>Image Analysis with AI:</strong> Semantic segmentation of aerial imagery using TensorFlow/TFLite.</li>
-                <li><strong>Tech Stack:</strong> Python, TensorFlow, TFLite, Jetson Nano, OpenCV.</li>
-            </ul>
-        </div>
-    </div>
+<div class="experience-card">
+<div class="exp-header">
+<div class="exp-company">
+<img src="https://logo.clearbit.com/uni-kl.de" class="company-logo" alt="RPTU">
+<div>
+<h3>Research Assistant & Master's Thesis</h3>
+<div class="exp-company-name">Institute for Wireless Communication (WiCoN)</div>
+</div>
+</div>
+<div class="exp-date">04/2019 - 01/2021</div>
+</div>
+<div class="exp-details">
+<ul>
+<li><strong>Drone Development:</strong> Developed drone systems for landscape analysis and environmental data collection.</li>
+<li><strong>Image Analysis with AI:</strong> Semantic segmentation of aerial imagery using TensorFlow/TFLite.</li>
+<li><strong>Tech Stack:</strong> Python, TensorFlow, TFLite, Jetson Nano, OpenCV.</li>
+</ul>
+</div>
+</div>
 
-    <div class="experience-card">
-        <div class="exp-header">
-            <div class="exp-company">
-                <img src="https://logo.clearbit.com/bosch.com" class="company-logo" alt="Bosch">
-                <div>
-                    <h3>Intern (ADAS Test Automation)</h3>
-                    <div class="exp-company-name">Robert Bosch GmbH</div>
-                </div>
-            </div>
-            <div class="exp-date">11/2018 - 03/2019</div>
-        </div>
-        <div class="exp-details">
-            <ul>
-                <li>Developed automated tests in Python/Matlab for Radar & Camera Systems synchronization.</li>
-                <li>Enhanced detection performance through targeted Image & Signal Processing.</li>
-            </ul>
-        </div>
-    </div>
+<div class="experience-card">
+<div class="exp-header">
+<div class="exp-company">
+<img src="https://logo.clearbit.com/bosch.com" class="company-logo" alt="Bosch">
+<div>
+<h3>Intern (ADAS Test Automation)</h3>
+<div class="exp-company-name">Robert Bosch GmbH</div>
+</div>
+</div>
+<div class="exp-date">11/2018 - 03/2019</div>
+</div>
+<div class="exp-details">
+<ul>
+<li>Developed automated tests in Python/Matlab for Radar & Camera Systems synchronization.</li>
+<li>Enhanced detection performance through targeted Image & Signal Processing.</li>
+</ul>
+</div>
+</div>
 
 </div>
 
