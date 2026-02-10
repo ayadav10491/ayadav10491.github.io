@@ -1,21 +1,21 @@
-/* Modern Light Theme Variables */
+/* Modern Light Theme Variables (Refire Palette) */
 :root {
-    --bg-color: #F3D9E5;
-    /* Mist Rose */
+    --bg-color: #AFDDE5;
+    /* Ice Blue */
     --card-bg: #FFFFFF;
     /* White */
-    --text-primary: #4A3267;
-    /* Deep Purple */
-    --text-secondary: #7D6C8A;
-    /* Muted Purple */
-    --accent-color: #DE638A;
-    /* Dark Pink */
-    --accent-hover: #4A3267;
-    /* Deep Purple */
-    --tag-bg: #C6BADE;
-    /* Lavender */
-    --tag-text: #4A3267;
-    /* Deep Purple */
+    --text-primary: #003135;
+    /* Deep Teal/Black */
+    --text-secondary: #024950;
+    /* Dark Teal */
+    --accent-color: #964734;
+    /* Rust/Orange */
+    --accent-hover: #0FA4AF;
+    /* Bright Cyan */
+    --tag-bg: #E0F2F5;
+    /* Very Light Teal */
+    --tag-text: #024950;
+    /* Dark Teal */
     --font-main: 'Inter', sans-serif;
     --transition: all 0.3s ease;
 }
@@ -28,18 +28,21 @@ body {
     margin: 0;
     padding: 0;
     line-height: 1.6;
-    background-image: linear-gradient(135deg, #F3D9E5 0%, #faeef3 100%);
+    background-image: linear-gradient(135deg, #AFDDE5 0%, #FFFFFF 100%);
     min-height: 100vh;
 }
 
 a {
-    color: var(--accent-color);
+    color: var(--text-secondary);
+    /* Dark Teal for links */
     text-decoration: none;
     transition: var(--transition);
+    font-weight: 600;
 }
 
 a:hover {
-    color: var(--accent-hover);
+    color: var(--accent-color);
+    /* Rust on hover */
 }
 
 h1,
@@ -50,6 +53,7 @@ h5,
 h6 {
     color: var(--text-primary);
     margin-bottom: 1rem;
+    font-weight: 700;
 }
 
 /* Layout Container */
@@ -70,8 +74,8 @@ header {
     background: var(--card-bg);
     padding: 2rem;
     border-radius: 1rem;
-    box-shadow: 0 10px 25px -5px rgba(74, 50, 103, 0.1);
-    /* Colored shadow */
+    box-shadow: 0 10px 25px -5px rgba(0, 49, 53, 0.1);
+    /* Deep Teal shadow */
     text-align: center;
     border: 1px solid rgba(255, 255, 255, 0.5);
 }
@@ -82,14 +86,15 @@ header img {
     height: 150px;
     object-fit: cover;
     border: 4px solid var(--accent-color);
+    /* Rust border */
     margin-bottom: 1.5rem;
-    box-shadow: 0 4px 6px -1px rgba(222, 99, 138, 0.2);
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
 }
 
 header h1 {
     font-size: 1.5rem;
     margin-bottom: 0.5rem;
-    font-weight: 700;
+    color: var(--text-primary);
 }
 
 header p {
@@ -105,6 +110,7 @@ header p {
     margin-top: 1rem;
 }
 
+/* Buttons */
 .btn {
     display: inline-block;
     padding: 0.5rem 1rem;
@@ -112,20 +118,22 @@ header p {
     font-weight: 600;
     transition: var(--transition);
     text-align: center;
-    border: 1px solid var(--accent-color);
+    border: 2px solid var(--accent-color);
+    /* Rust border */
     cursor: pointer;
 }
 
 .btn-primary {
     background: var(--accent-color);
+    /* Rust background */
     color: #FFFFFF;
-    border-color: var(--accent-color);
-    box-shadow: 0 4px 6px -1px rgba(222, 99, 138, 0.3);
+    box-shadow: 0 4px 6px -1px rgba(150, 71, 52, 0.3);
 }
 
 .btn-primary:hover {
-    background: var(--accent-hover);
-    border-color: var(--accent-hover);
+    background: var(--text-primary);
+    /* Deep Teal on hover */
+    border-color: var(--text-primary);
     color: #FFFFFF;
     transform: translateY(-2px);
 }
@@ -133,7 +141,7 @@ header p {
 .btn-outline {
     background: transparent;
     color: var(--accent-color);
-    border-color: var(--accent-color);
+    /* Rust text */
 }
 
 .btn-outline:hover {
@@ -156,15 +164,16 @@ section {
     background: var(--card-bg);
     border-radius: 1rem;
     padding: 2rem;
-    box-shadow: 0 4px 6px -1px rgba(74, 50, 103, 0.05);
+    box-shadow: 0 4px 6px -1px rgba(0, 49, 53, 0.05);
     transition: var(--transition);
-    border: 1px solid rgba(74, 50, 103, 0.05);
+    border: 1px solid rgba(0, 49, 53, 0.05);
 }
 
 .project-card:hover {
     transform: translateY(-5px);
-    box-shadow: 0 20px 25px -5px rgba(74, 50, 103, 0.1);
-    border-color: var(--accent-color);
+    box-shadow: 0 20px 25px -5px rgba(0, 49, 53, 0.1);
+    border-color: var(--accent-hover);
+    /* Cyan on hover */
 }
 
 .project-card h3 {
@@ -191,6 +200,7 @@ section {
     padding-top: 1rem;
 }
 
+/* Tags */
 .tags {
     display: flex;
     flex-wrap: wrap;
@@ -204,7 +214,7 @@ section {
     padding: 0.25rem 0.75rem;
     border-radius: 1rem;
     font-size: 0.8rem;
-    font-weight: 500;
+    font-weight: 600;
 }
 
 /* Responsive Design */
