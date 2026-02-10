@@ -17,7 +17,7 @@
 <span class="tag">TensorFlow Lite</span>
 <span class="tag">Embedded Systems</span>
 </div>
-<a href="/Project_1.md" class="btn btn-outline" style="margin-top: 1rem; display: inline-block;">View Project Details</a>
+<a href="/Project_1.html" class="btn btn-outline" style="margin-top: 1rem; display: inline-block;">View Project Details</a>
 </div>
 </div>
 
@@ -53,7 +53,7 @@
 <span class="tag">C++</span>
 <span class="tag">Control Systems</span>
 </div>
-<a href="/Project_2.md" class="btn btn-outline" style="margin-top: 1rem; display: inline-block;">View Project Details</a>
+<a href="/Project_2.html" class="btn btn-outline" style="margin-top: 1rem; display: inline-block;">View Project Details</a>
 </div>
 </div>
 
