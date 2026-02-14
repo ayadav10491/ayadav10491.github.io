@@ -1,4 +1,3 @@
-
 ---
 layout: project
 title: Embedded Deep Learning Semantic Segmentation
