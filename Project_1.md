@@ -1,4 +1,9 @@
 
+---
+layout: project
+title: Embedded Deep Learning Semantic Segmentation
+---
+
 ## Embedded Deep Learning based Semantic Segmentation using TensorFLow Lite
 
 ### Objective 

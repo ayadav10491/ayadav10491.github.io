@@ -1,3 +1,8 @@
+---
+layout: project
+title: Multi-Robot Formation Control
+---
+
 # Multi-Robot Formation Control
 
 ---
