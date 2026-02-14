@@ -82,6 +82,12 @@ nav a:hover {
     color: var(--accent-rust);
 }
 
+/* Fix for nav bar jitter on hover */
+nav.glass:hover {
+    transform: translateX(-50%);
+    /* Keep centered, disable vertical movement */
+}
+
 /* Hero Section */
 .hero {
     min-height: 100vh;
