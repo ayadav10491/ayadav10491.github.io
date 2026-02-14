@@ -15,7 +15,8 @@
     <link rel="stylesheet" type='text/css' href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
 
     <!-- CSS -->
-    <link rel="stylesheet" href="{{ " /assets/css/modern.css" | relative_url }}">
+    <!-- CSS -->
+    <link rel="stylesheet" href="{{ " /assets/css/glass.css" | relative_url }}">
 
     {% seo %}
 
@@ -23,7 +24,6 @@
         /* Project specific overrides */
         .project-header {
             padding: 20px 0;
-            border-bottom: 1px solid #eee;
             margin-bottom: 40px;
         }
 
@@ -36,18 +36,23 @@
             font-weight: 600;
             margin-bottom: 20px;
             transition: transform 0.2s;
+            padding: 10px 20px;
+            background: rgba(255, 255, 255, 0.3);
+            border-radius: 20px;
+            backdrop-filter: blur(5px);
         }
 
         .back-link:hover {
             transform: translateX(-5px);
+            background: rgba(255, 255, 255, 0.5);
         }
     </style>
 </head>
 
 <body>
-    <div class="wrapper">
+    <div class="container">
         <!-- Simplified Header for Projects -->
-        <header style="text-align: left; padding-bottom: 0; margin-bottom: 2rem;">
+        <header style="text-align: left; padding: 20px 0;">
             <a href="https://ayadav10491.github.io/" class="back-link">
                 <i class="fas fa-arrow-left"></i> Back to Portfolio
             </a>
@@ -58,7 +63,7 @@
         </section>
 
         <footer
-            style="margin-top: 60px; padding-top: 20px; border-top: 1px solid #eee; text-align: center; color: #666; font-size: 0.9rem;">
+            style="margin-top: 60px; padding-top: 20px; border-top: 1px solid rgba(0,0,0,0.05); text-align: center; color: var(--text-dark-teal); font-size: 0.9rem;">
             <p>&copy; {{ site.time | date: '%Y' }} {{ site.title }}</p>
         </footer>
     </div>
