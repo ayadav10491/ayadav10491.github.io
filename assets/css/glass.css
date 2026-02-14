@@ -288,13 +288,13 @@ nav a:hover {
 .job-tech-stack {
     display: flex;
     flex-wrap: wrap;
-    gap: 12px;
+    gap: 16px;
     margin-bottom: 15px;
     padding-left: 20px;
 }
 
 .job-tech-stack i {
-    font-size: 1.4rem;
+    font-size: 2.2rem;
     color: var(--text-dark-teal);
     transition: color 0.3s, transform 0.2s;
 }
