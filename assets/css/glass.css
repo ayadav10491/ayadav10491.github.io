@@ -185,7 +185,8 @@ nav a:hover {
 /* Experience Timeline */
 .timeline {
     position: relative;
-    max-width: 800px;
+    max-width: 900px;
+    /* Increased width */
     margin: 0 auto;
 }
 
@@ -203,65 +204,84 @@ nav a:hover {
 
 .timeline-item {
     position: relative;
-    margin-bottom: 40px;
-    padding-left: 50px;
+    margin-bottom: 50px;
+    /* Increased spacing */
+    padding-left: 60px;
+    /* Increased padding */
 }
 
 .timeline-dot {
     position: absolute;
     left: 11px;
-    top: 24px;
-    width: 16px;
-    height: 16px;
+    top: 32px;
+    /* Adjusted for larger card header */
+    width: 20px;
+    /* Slightly larger dot */
+    height: 20px;
     border-radius: 50%;
     background: var(--accent-rust);
-    border: 3px solid white;
+    border: 4px solid white;
     box-shadow: 0 0 0 3px rgba(150, 71, 52, 0.2);
     z-index: 1;
 }
 
 .job-card {
-    padding: 30px;
+    padding: 35px;
+    /* More internal breathing room */
 }
 
 .job-header {
     display: flex;
     justify-content: space-between;
-    align-items: flex-start;
-    margin-bottom: 15px;
+    align-items: center;
+    /* Better alignment */
+    margin-bottom: 20px;
     flex-wrap: wrap;
-    gap: 10px;
+    gap: 15px;
 }
 
 .company-logo {
-    width: 40px;
-    height: 40px;
-    border-radius: 8px;
-    margin-right: 15px;
+    width: 60px;
+    /* Larger logo */
+    height: 60px;
+    border-radius: 12px;
+    margin-right: 20px;
     vertical-align: middle;
+    object-fit: contain;
+    /* Ensure logo fits well */
+    background: white;
+    /* meaningful background for transparent logos */
+    padding: 5px;
+    /* slight padding inside white box */
 }
 
 .job-title {
-    font-size: 1.25rem;
+    font-size: 1.4rem;
+    /* Larger title */
     font-weight: 700;
     margin: 0;
+    margin-bottom: 5px;
 }
 
 .company-name {
     color: var(--accent-rust);
     font-weight: 600;
+    font-size: 1.1rem;
+    /* Larger company name */
     display: flex;
     align-items: center;
-    margin-top: 5px;
 }
 
 .job-date {
-    font-size: 0.85rem;
+    font-size: 0.95rem;
+    /* More legible date */
     background: rgba(150, 71, 52, 0.1);
     color: var(--accent-rust);
-    padding: 4px 12px;
+    padding: 6px 16px;
     border-radius: 20px;
     font-weight: 600;
+    white-space: nowrap;
+    /* Prevent date wrapping awkwardly */
 }
 
 .job-details ul {
