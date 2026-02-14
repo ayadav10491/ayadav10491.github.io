@@ -284,7 +284,28 @@ nav a:hover {
     /* Prevent date wrapping awkwardly */
 }
 
+/* Job Tech Stack */
+.job-tech-stack {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    margin-bottom: 15px;
+    padding-left: 20px;
+}
+
+.job-tech-stack i {
+    font-size: 1.4rem;
+    color: var(--text-dark-teal);
+    transition: color 0.3s, transform 0.2s;
+}
+
+.job-tech-stack i:hover {
+    color: var(--accent-rust);
+    transform: translateY(-2px);
+}
+
 .job-details ul {
+
     list-style-type: none;
     padding: 0;
 }
