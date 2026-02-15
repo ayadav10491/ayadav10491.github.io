@@ -39,7 +39,7 @@ The difference in efficiency is staggering. Comparing Operations Per Watt (TOPS/
 <span>0.5 TOPS/W</span>
 </div>
 <div style="background: rgba(0,0,0,0.1); border-radius: 10px; height: 12px; overflow: hidden;">
-<div style="width: 10%; background: var(--text-secondary); height: 100%; border-radius: 10px;"></div>
+<div style="width: 10%; background: #bdc3c7; height: 100%; border-radius: 10px;"></div>
 </div>
 </div>
 <!-- GPU -->
@@ -49,7 +49,7 @@ The difference in efficiency is staggering. Comparing Operations Per Watt (TOPS/
 <span>2.5 TOPS/W</span>
 </div>
 <div style="background: rgba(0,0,0,0.1); border-radius: 10px; height: 12px; overflow: hidden;">
-<div style="width: 50%; background: var(--text-primary); height: 100%; border-radius: 10px;"></div>
+<div style="width: 50%; background: #0FA4AF; height: 100%; border-radius: 10px;"></div>
 </div>
 </div>
 <!-- TPU -->
@@ -59,7 +59,7 @@ The difference in efficiency is staggering. Comparing Operations Per Watt (TOPS/
 <span>4.0+ TOPS/W</span>
 </div>
 <div style="background: rgba(0,0,0,0.1); border-radius: 10px; height: 12px; overflow: hidden;">
-<div style="width: 90%; background: var(--accent-rust); height: 100%; border-radius: 10px;"></div>
+<div style="width: 90%; background: #964734; height: 100%; border-radius: 10px;"></div>
 </div>
 </div>
 </div>
@@ -80,33 +80,29 @@ Consider running a semantic segmentation model (MobileNetV2-UNet) on a mobile ro
 
 <div class="glass" style="padding: 25px; margin: 30px 0; background: rgba(255,255,255,0.1);">
 <h3 style="margin-top: 0; text-align: center; font-size: 1.2rem;">Inference Latency (Lower is Better)</h3>
-<div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 15px; margin-top: 20px; text-align: center;">
+<div style="display: flex; justify-content: space-around; align-items: flex-end; height: 180px; margin-top: 30px; text-align: center;">
+
 <!-- RPi -->
-<div style="display: flex; flex-direction: column; justify-content: flex-end; align-items: center;">
-<div style="height: 150px; width: 40px; background: rgba(0,0,0,0.1); border-radius: 20px 20px 0 0; position: relative; overflow: hidden;">
-<div style="position: absolute; bottom: 0; width: 100%; height: 100%; background: var(--text-secondary); opacity: 0.7;"></div>
-</div>
-<span style="font-weight: 700; margin-top: 10px; font-size: 0.9rem;">150ms</span>
-<span style="font-size: 0.8rem; opacity: 0.8;">CPU (RPi 4)</span>
+<div style="display: flex; flex-direction: column; align-items: center; width: 60px;">
+<div style="height: 150px; width: 40px; background: #e74c3c; border-radius: 8px 8px 0 0; box-shadow: 0 4px 10px rgba(231, 76, 60, 0.3);"></div>
+<span style="font-weight: 700; margin-top: 10px; font-size: 0.9rem; color: #e74c3c;">150ms</span>
+<span style="font-size: 0.8rem; opacity: 0.8;">CPU</span>
 </div>
 
 <!-- GPU -->
-<div style="display: flex; flex-direction: column; justify-content: flex-end; align-items: center;">
-<div style="height: 150px; width: 40px; background: rgba(0,0,0,0.1); border-radius: 20px 20px 0 0; position: relative; overflow: hidden;">
-<div style="position: absolute; bottom: 0; width: 100%; height: 25%; background: var(--text-primary); opacity: 0.8;"></div>
-</div>
-<span style="font-weight: 700; margin-top: 10px; font-size: 0.9rem;">38ms</span>
-<span style="font-size: 0.8rem; opacity: 0.8;">GPU (Nano)</span>
+<div style="display: flex; flex-direction: column; align-items: center; width: 60px;">
+<div style="height: 40px; width: 40px; background: #f39c12; border-radius: 8px 8px 0 0; box-shadow: 0 4px 10px rgba(243, 156, 18, 0.3);"></div>
+<span style="font-weight: 700; margin-top: 10px; font-size: 0.9rem; color: #f39c12;">38ms</span>
+<span style="font-size: 0.8rem; opacity: 0.8;">GPU</span>
 </div>
 
 <!-- TPU -->
-<div style="display: flex; flex-direction: column; justify-content: flex-end; align-items: center;">
-<div style="height: 150px; width: 40px; background: rgba(0,0,0,0.1); border-radius: 20px 20px 0 0; position: relative; overflow: hidden;">
-<div style="position: absolute; bottom: 0; width: 100%; height: 5%; background: var(--accent-rust);"></div>
+<div style="display: flex; flex-direction: column; align-items: center; width: 60px;">
+<div style="height: 10px; width: 40px; background: #27ae60; border-radius: 8px 8px 0 0; box-shadow: 0 4px 10px rgba(39, 174, 96, 0.3);"></div>
+<span style="font-weight: 700; margin-top: 10px; font-size: 0.9rem; color: #27ae60;">8ms</span>
+<span style="font-size: 0.8rem; opacity: 0.8;">TPU</span>
 </div>
-<span style="font-weight: 700; margin-top: 10px; font-size: 0.9rem;">8ms</span>
-<span style="font-size: 0.8rem; opacity: 0.8;">Edge TPU</span>
-</div>
+
 </div>
 </div>
 
