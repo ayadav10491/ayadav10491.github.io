@@ -5,7 +5,7 @@ date: 2020-09-15
 tags: [Edge AI, Hardware, Deep Learning]
 ---
 
-I still remember the first time I tried to run a real-time semantic segmentation model on a Raspberry Pi 4. I had spent weeks optimizing the PyTorch code, pruning layers, and quantizing weights. I hit enter, waited... and waited.
+I still remember the first time I tried to run a real-time semantic segmentation model on a Raspberry Pi 4. It was the core component of my [Master's Thesis](/Project_1.html), where I was attempting to build a vision-based environment surveying application. I had spent weeks optimizing the PyTorch code, pruning layers, and quantizing weights. I hit enter, waited... and waited.
 
 **2 FPS.**
 
