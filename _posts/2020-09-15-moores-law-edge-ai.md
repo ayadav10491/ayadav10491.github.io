@@ -3,6 +3,7 @@ layout: post
 title: "Why Moore’s Law Doesn't Matter for Edge AI: The Rise of DSAs"
 date: 2020-09-15
 tags: [Edge AI, Hardware, Deep Learning]
+published: false
 ---
 
 I still remember the first time I tried to run a real-time semantic segmentation model on a Raspberry Pi 4. It was the core component of my [Master's Thesis](/Project_1.html), where I investigated embedded vision feasibility. I had spent weeks optimizing the **TensorFlow** model, moving to **TensorFlow Lite**, and quantizing weights. I hit enter, waited... and waited.
