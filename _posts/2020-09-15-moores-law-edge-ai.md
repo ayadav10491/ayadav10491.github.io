@@ -32,39 +32,39 @@ The difference in efficiency is staggering. Comparing Operations Per Watt (TOPS/
 <div class="glass" style="padding: 25px; margin: 30px 0; background: rgba(255,255,255,0.1);">
 <h3 style="margin-top: 0; text-align: center; font-size: 1.2rem;">Energy Efficiency (TOPS/W)</h3>
 <div style="margin-top: 20px;">
-    <!-- CPU -->
-    <div style="margin-bottom: 15px;">
-        <div style="display: flex; justify-content: space-between; margin-bottom: 5px; font-size: 0.9rem; font-weight: 600;">
-            <span>General Purpose CPU</span>
-            <span>0.5 TOPS/W</span>
-        </div>
-        <div style="background: rgba(0,0,0,0.1); border-radius: 10px; height: 12px; overflow: hidden;">
-            <div style="width: 10%; background: var(--text-secondary); height: 100%; border-radius: 10px;"></div>
-        </div>
-    </div>
-    <!-- GPU -->
-    <div style="margin-bottom: 15px;">
-        <div style="display: flex; justify-content: space-between; margin-bottom: 5px; font-size: 0.9rem; font-weight: 600;">
-            <span>Embedded GPU (Jetson)</span>
-            <span>2.5 TOPS/W</span>
-        </div>
-        <div style="background: rgba(0,0,0,0.1); border-radius: 10px; height: 12px; overflow: hidden;">
-            <div style="width: 50%; background: var(--text-primary); height: 100%; border-radius: 10px;"></div>
-        </div>
-    </div>
-    <!-- TPU -->
-    <div style="margin-bottom: 5px;">
-        <div style="display: flex; justify-content: space-between; margin-bottom: 5px; font-size: 0.9rem; font-weight: 600;">
-            <span>Edge TPU (Coral)</span>
-            <span>4.0+ TOPS/W</span>
-        </div>
-        <div style="background: rgba(0,0,0,0.1); border-radius: 10px; height: 12px; overflow: hidden;">
-            <div style="width: 90%; background: var(--accent-rust); height: 100%; border-radius: 10px;"></div>
-        </div>
-    </div>
+<!-- CPU -->
+<div style="margin-bottom: 15px;">
+<div style="display: flex; justify-content: space-between; margin-bottom: 5px; font-size: 0.9rem; font-weight: 600;">
+<span>General Purpose CPU</span>
+<span>0.5 TOPS/W</span>
+</div>
+<div style="background: rgba(0,0,0,0.1); border-radius: 10px; height: 12px; overflow: hidden;">
+<div style="width: 10%; background: var(--text-secondary); height: 100%; border-radius: 10px;"></div>
+</div>
+</div>
+<!-- GPU -->
+<div style="margin-bottom: 15px;">
+<div style="display: flex; justify-content: space-between; margin-bottom: 5px; font-size: 0.9rem; font-weight: 600;">
+<span>Embedded GPU (Jetson)</span>
+<span>2.5 TOPS/W</span>
+</div>
+<div style="background: rgba(0,0,0,0.1); border-radius: 10px; height: 12px; overflow: hidden;">
+<div style="width: 50%; background: var(--text-primary); height: 100%; border-radius: 10px;"></div>
+</div>
+</div>
+<!-- TPU -->
+<div style="margin-bottom: 5px;">
+<div style="display: flex; justify-content: space-between; margin-bottom: 5px; font-size: 0.9rem; font-weight: 600;">
+<span>Edge TPU (Coral)</span>
+<span>4.0+ TOPS/W</span>
+</div>
+<div style="background: rgba(0,0,0,0.1); border-radius: 10px; height: 12px; overflow: hidden;">
+<div style="width: 90%; background: var(--accent-rust); height: 100%; border-radius: 10px;"></div>
+</div>
+</div>
 </div>
 <p style="text-align: center; font-size: 0.8rem; margin-top: 15px; font-style: italic; opacity: 0.8;">
-    Reflects approximate efficiency based on 2020 hardware generation (Raspberry Pi 4, Jetson Nano, Google Coral).
+Reflects approximate efficiency based on 2020 hardware generation (Raspberry Pi 4, Jetson Nano, Google Coral).
 </p>
 </div>
 
@@ -81,33 +81,32 @@ Consider running a semantic segmentation model (MobileNetV2-UNet) on a mobile ro
 <div class="glass" style="padding: 25px; margin: 30px 0; background: rgba(255,255,255,0.1);">
 <h3 style="margin-top: 0; text-align: center; font-size: 1.2rem;">Inference Latency (Lower is Better)</h3>
 <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 15px; margin-top: 20px; text-align: center;">
-    
-    <!-- RPi -->
-    <div style="display: flex; flex-direction: column; justify-content: flex-end; align-items: center;">
-        <div style="height: 150px; width: 40px; background: rgba(0,0,0,0.1); border-radius: 20px 20px 0 0; position: relative; overflow: hidden;">
-                <div style="position: absolute; bottom: 0; width: 100%; height: 100%; background: var(--text-secondary); opacity: 0.7;"></div>
-        </div>
-        <span style="font-weight: 700; margin-top: 10px; font-size: 0.9rem;">150ms</span>
-        <span style="font-size: 0.8rem; opacity: 0.8;">CPU (RPi 4)</span>
-    </div>
+<!-- RPi -->
+<div style="display: flex; flex-direction: column; justify-content: flex-end; align-items: center;">
+<div style="height: 150px; width: 40px; background: rgba(0,0,0,0.1); border-radius: 20px 20px 0 0; position: relative; overflow: hidden;">
+<div style="position: absolute; bottom: 0; width: 100%; height: 100%; background: var(--text-secondary); opacity: 0.7;"></div>
+</div>
+<span style="font-weight: 700; margin-top: 10px; font-size: 0.9rem;">150ms</span>
+<span style="font-size: 0.8rem; opacity: 0.8;">CPU (RPi 4)</span>
+</div>
 
-    <!-- GPU -->
-    <div style="display: flex; flex-direction: column; justify-content: flex-end; align-items: center;">
-        <div style="height: 150px; width: 40px; background: rgba(0,0,0,0.1); border-radius: 20px 20px 0 0; position: relative; overflow: hidden;">
-                <div style="position: absolute; bottom: 0; width: 100%; height: 25%; background: var(--text-primary); opacity: 0.8;"></div>
-        </div>
-        <span style="font-weight: 700; margin-top: 10px; font-size: 0.9rem;">38ms</span>
-        <span style="font-size: 0.8rem; opacity: 0.8;">GPU (Nano)</span>
-    </div>
+<!-- GPU -->
+<div style="display: flex; flex-direction: column; justify-content: flex-end; align-items: center;">
+<div style="height: 150px; width: 40px; background: rgba(0,0,0,0.1); border-radius: 20px 20px 0 0; position: relative; overflow: hidden;">
+<div style="position: absolute; bottom: 0; width: 100%; height: 25%; background: var(--text-primary); opacity: 0.8;"></div>
+</div>
+<span style="font-weight: 700; margin-top: 10px; font-size: 0.9rem;">38ms</span>
+<span style="font-size: 0.8rem; opacity: 0.8;">GPU (Nano)</span>
+</div>
 
-    <!-- TPU -->
-    <div style="display: flex; flex-direction: column; justify-content: flex-end; align-items: center;">
-        <div style="height: 150px; width: 40px; background: rgba(0,0,0,0.1); border-radius: 20px 20px 0 0; position: relative; overflow: hidden;">
-                <div style="position: absolute; bottom: 0; width: 100%; height: 5%; background: var(--accent-rust);"></div>
-        </div>
-        <span style="font-weight: 700; margin-top: 10px; font-size: 0.9rem;">8ms</span>
-        <span style="font-size: 0.8rem; opacity: 0.8;">Edge TPU</span>
-    </div>
+<!-- TPU -->
+<div style="display: flex; flex-direction: column; justify-content: flex-end; align-items: center;">
+<div style="height: 150px; width: 40px; background: rgba(0,0,0,0.1); border-radius: 20px 20px 0 0; position: relative; overflow: hidden;">
+<div style="position: absolute; bottom: 0; width: 100%; height: 5%; background: var(--accent-rust);"></div>
+</div>
+<span style="font-weight: 700; margin-top: 10px; font-size: 0.9rem;">8ms</span>
+<span style="font-size: 0.8rem; opacity: 0.8;">Edge TPU</span>
+</div>
 </div>
 </div>
 
