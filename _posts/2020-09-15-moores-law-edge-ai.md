@@ -5,11 +5,11 @@ date: 2020-09-15
 tags: [Edge AI, Hardware, Deep Learning]
 ---
 
-I still remember the first time I tried to run a real-time semantic segmentation model on a Raspberry Pi 4. It was the core component of my [Master's Thesis](/Project_1.html), where I was attempting to build a vision-based environment surveying application. I had spent weeks optimizing the PyTorch code, pruning layers, and quantizing weights. I hit enter, waited... and waited.
+I still remember the first time I tried to run a real-time semantic segmentation model on a Raspberry Pi 4. It was the core component of my [Master's Thesis](/Project_1.html), where I investigated embedded vision feasibility. I had spent weeks optimizing the **TensorFlow** model, moving to **TensorFlow Lite**, and quantizing weights. I hit enter, waited... and waited.
 
 **2 FPS.**
 
-The robot I was building didn't just need to see; it needed to react. At 2 frames per second, it was effectively blind for half a second at a time. In the world of autonomous systems, that’s not a lag; that’s a crash.
+Imagine a robot trying to navigate with that. It doesn't just need to see; it needs to react. At 2 frames per second, it is effectively blind for half a second at a time. In the world of autonomous systems, that’s not a lag; that’s a crash.
 
 For decades, we’ve been spoiled. If code was slow, we just waited for next year's Intel chip. Moore’s Law—the doubling of transistor density every two years—was our safety net.
 
