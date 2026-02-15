@@ -1,0 +1,122 @@
+---
+layout: default
+title: Blog
+---
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog | Akash Yadav</title>
+    <link rel="stylesheet" href="assets/css/glass.css">
+    <style>
+        .blog-header {
+            text-align: center;
+            margin-bottom: 60px;
+            padding: 40px 0;
+        }
+
+        .blog-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+            gap: 30px;
+        }
+
+        .blog-card {
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            display: flex;
+            flex-direction: column;
+            height: 100%;
+        }
+
+        .blog-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 15px 35px rgba(0, 0, 0, 0.1);
+        }
+
+        .blog-date {
+            font-size: 0.85rem;
+            color: var(--text-dark-teal);
+            margin-bottom: 10px;
+            display: block;
+        }
+
+        .blog-title {
+            font-size: 1.5rem;
+            margin-bottom: 15px;
+            color: var(--text-deep-teal);
+            line-height: 1.3;
+        }
+
+        .blog-excerpt {
+            color: var(--text-dark-teal);
+            font-size: 1rem;
+            line-height: 1.6;
+            margin-bottom: 20px;
+            flex-grow: 1;
+        }
+
+        .read-more {
+            color: var(--accent-rust);
+            font-weight: 600;
+            text-decoration: none;
+            display: inline-flex;
+            align-items: center;
+            gap: 5px;
+        }
+
+        .read-more:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Nav (Using the same style as index but standardized) -->
+    <nav class="glass">
+        <a href="index.html">Akash Yadav</a>
+        <a href="index.html#projects">Projects</a>
+        <a href="blog.html" class="active">Blog</a>
+        <a href="mailto:ayadav10491@gmail.com"><i class="fas fa-envelope"></i></a>
+    </nav>
+
+    <div class="container" style="padding-top: 100px; padding-bottom: 60px;">
+
+        <div class="blog-header">
+            <h1 style="font-size: 3rem; color: var(--text-deep-teal); margin-bottom: 20px;">Engineering Insights</h1>
+            <p style="font-size: 1.2rem; color: var(--text-dark-teal); max-width: 600px; margin: 0 auto;">
+                Thoughts on Edge AI, Distributed Systems, and the future of embedded computing.
+            </p>
+        </div>
+
+        <div class="blog-grid">
+            {% for post in site.posts %}
+            <div class="glass blog-card" style="padding: 30px;">
+                <span class="blog-date">{{ post.date | date: "%B %d, %Y" }}</span>
+                <h2 class="blog-title"><a href="{{ post.url | relative_url }}"
+                        style="text-decoration: none; color: inherit;">{{ post.title }}</a></h2>
+                <div class="tags" style="margin-bottom: 15px;">
+                    {% for tag in post.tags limit:3 %}
+                    <span class="tag" style="font-size: 0.75rem; padding: 4px 10px;">{{ tag }}</span>
+                    {% endfor %}
+                </div>
+                <p class="blog-excerpt">
+                    {{ post.excerpt | strip_html | truncatewords: 25 }}
+                </p>
+                <a href="{{ post.url | relative_url }}" class="read-more">Read Article <i class="fas fa-arrow-right"
+                        style="font-size: 0.8rem;"></i></a>
+            </div>
+            {% endfor %}
+        </div>
+
+    </div>
+
+    <footer style="text-align: center; padding: 40px; color: var(--text-dark-teal); opacity: 0.8;">
+        <p>&copy; {{ site.time | date: '%Y' }} Akash Yadav. Built with ❤️.</p>
+    </footer>
+
+</body>
+
+</html>
