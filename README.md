@@ -1,51 +1,27 @@
-## Developer Portfolio Landing Page Template
+# Akash Yadav - Software Engineer Portfolio
 
-### Introduction
+Welcome to the source code for my personal portfolio website.
 
-Use this template if you need a quick developer / data science portfolio! Based on a Minimal Jekyll theme for GitHub Pages.
+## Project Overview
 
-<img src="images/demo.gif?raw=true"/>
+This project is a custom-built portfolio designed to showcase my skills, experience, and projects as a Software Engineer specialized in C# / .NET, IoT, and Automation.
 
-### Installation
+**Live Site:** [https://ayadav10491.github.io/](https://ayadav10491.github.io/)
 
-See full step by step tutorial [on Medium](https://medium.com/@evanca/set-up-your-portfolio-website-in-less-than-10-minutes-with-github-pages-d0efa8ff56fd).
-___
+## Technology Stack
 
-You can use the editor on GitHub to maintain and preview the content for your website in Markdown files.
+- **HTML5**: Semantic structure.
+- **CSS3**: Custom "Glassmorphism" design system (`assets/css/glass.css`).
+- **JavaScript**: Minimal logic for service worker cleanup and interactions.
+- **GitHub Pages**: Hosting.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+## Structure
 
-### Markdown
+- `index.html`: Main landing page.
+- `projects/`: Detailed project pages.
+- `assets/`: Images, CSS, and other static resources.
+- `CV/`: Resume files.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+## License
 
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Roadmap
-
-See the [open issues](https://github.com/evanca/machine-learning_optimizing-app-offers-with-starbucks/issues) for a list of proposed features (and known issues).
-___
-
-### References
-
-[1] Jekyll theme "Minimal" for GitHub Pages: https://github.com/pages-themes/minimal (CC0 1.0 Universal License)
-<br>[2] Dummy photo via: https://pixabay.com/photos/man-male-adult-person-caucasian-1209494/ (Pixabay License)
-<br>[3] Dummy thumbnail image created by rawpixel.com: https://www.freepik.com/free-vector/set-elements-infographic_2807573.htm (Standard Freepik License)
+This project is open source and available under the [MIT License](LICENSE).
