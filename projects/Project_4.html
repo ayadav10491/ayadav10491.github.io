@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multi-Robot Formation Control | Akash Yadav</title>
+
+    <!-- Fonts & Icons -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="../assets/css/glass.css">
+    <link rel="stylesheet" href="../assets/css/style.css">
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <nav class="glass">
+        <a href="../index.html">Akash Yadav</a>
+        <a href="../CV/AkashYadav_Resume.pdf" target="_blank" class="btn-cta"
+            style="padding: 5px 15px; font-size: 0.8rem;">CV</a>
+    </nav>
+
+    <div class="container" style="padding-top: 100px; padding-bottom: 50px;">
+
+        <!-- Hero / Objective -->
+        <div class="glass"
+            style="padding: 40px; margin-bottom: 40px; text-align: center; animation: fadeInUp 0.8s ease-out;">
+            <h1 style="font-size: 2.2rem; margin-bottom: 20px; color: var(--text-deep-teal);">Multi-Robot Formation
+                Control
+            </h1>
+            <div class="tags" style="justify-content: center; margin-bottom: 30px;">
+                <span class="tag" style="font-size: 0.9rem; padding: 6px 15px;">Multi-Robot Systems</span>
+                <span class="tag" style="font-size: 0.9rem; padding: 6px 15px;">Graph Theory</span>
+                <span class="tag" style="font-size: 0.9rem; padding: 6px 15px;">MATLAB</span>
+            </div>
+            <p
+                style="font-size: 1.15rem; line-height: 1.8; color: var(--text-dark-teal); max-width: 800px; margin: 0 auto;">
+                Implemented decentralized formation control for multi-robot systems using graph theory and consensus
+                algorithms, enabling localized coordination without a central leader.
+            </p>
+        </div>
+
+        <!-- Approach & Architecture -->
+        <h2 style="text-align: center; margin-bottom: 30px; font-size: 1.8rem;">Control Architecture</h2>
+        <div
+            style="display: grid; grid-template-columns: repeat(auto-fit, minmax(350px, 1fr)); gap: 40px; margin-bottom: 60px;">
+
+            <div class="glass" style="padding: 30px; text-align: center;">
+                <h3 style="margin-bottom: 20px; color: var(--accent-rust);">Controller Design (MBSE)</h3>
+                <img src="../assets/images/controller_mbse.png" alt="MBSE Controller"
+                    style="max-width: 100%; border-radius: 10px; box-shadow: 0 5px 15px rgba(0,0,0,0.05);">
+                <p style="margin-top: 15px; font-size: 0.9rem;">Model-Based Systems Engineering Approach</p>
+            </div>
+
+            <div class="glass" style="padding: 30px; text-align: center;">
+                <h3 style="margin-bottom: 20px; color: var(--accent-rust);">Communication Topology</h3>
+                <img src="../assets/images/graph.png" alt="Communication Graph"
+                    style="max-width: 100%; border-radius: 10px; box-shadow: 0 5px 15px rgba(0,0,0,0.05);">
+                <p style="margin-top: 15px; font-size: 0.9rem;">Graph-based Neighbor Interaction</p>
+            </div>
+        </div>
+
+        <!-- Implementation Specs -->
+        <h2 style="text-align: center; margin-bottom: 30px; font-size: 1.8rem;">System Specifications</h2>
+        <div
+            style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 20px; margin-bottom: 60px;">
+            <div class="glass" style="padding: 20px; text-align: center;">
+                <i class="fas fa-robot" style="font-size: 2rem; color: var(--accent-rust); margin-bottom: 10px;"></i>
+                <h3>Agent Model</h3>
+                <p>Unicycle Mobile Robots</p>
+            </div>
+            <div class="glass" style="padding: 20px; text-align: center;">
+                <i class="fas fa-users" style="font-size: 2rem; color: var(--accent-rust); margin-bottom: 10px;"></i>
+                <h3>Swarm Size</h3>
+                <p>4 Agents (Scalable)</p>
+            </div>
+            <div class="glass" style="padding: 20px; text-align: center;">
+                <i class="fas fa-project-diagram"
+                    style="font-size: 2rem; color: var(--accent-rust); margin-bottom: 10px;"></i>
+                <h3>Algorithm</h3>
+                <p>Consensus Protocol</p>
+            </div>
+            <div class="glass" style="padding: 20px; text-align: center;">
+                <i class="fas fa-laptop-code"
+                    style="font-size: 2rem; color: var(--accent-rust); margin-bottom: 10px;"></i>
+                <h3>Platform</h3>
+                <p>MATLAB / Simulink</p>
+            </div>
+        </div>
+
+        <!-- Key Features Grid -->
+        <h2 style="text-align: center; margin-bottom: 30px; font-size: 1.8rem;">Key Features</h2>
+        <div
+            style="display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 25px; margin-bottom: 60px;">
+            <div class="glass" style="padding: 25px;">
+                <h3 style="margin-bottom: 10px; color: var(--text-deep-teal);">Decentralized</h3>
+                <p style="font-size: 0.95rem; color: var(--text-dark-teal);">
+                    No central leader. Each robot decides its acton based only on local neighbor information.
+                </p>
+            </div>
+            <div class="glass" style="padding: 25px;">
+                <h3 style="margin-bottom: 10px; color: var(--text-deep-teal);">Scalable</h3>
+                <p style="font-size: 0.95rem; color: var(--text-dark-teal);">
+                    Graph-based approach allows easy extension to N robots without changing the control law.
+                </p>
+            </div>
+            <div class="glass" style="padding: 25px;">
+                <h3 style="margin-bottom: 10px; color: var(--text-deep-teal);">Robust</h3>
+                <p style="font-size: 0.95rem; color: var(--text-dark-teal);">
+                    Formation persists even if some communication individual links fail, as long as the graph remains
+                    connected.
+                </p>
+            </div>
+        </div>
+
+        <!-- Documentation CTA -->
+        <div class="glass" style="padding: 40px; margin-bottom: 40px; text-align: center;">
+            <h2 style="margin-bottom: 20px;">Full Documentation</h2>
+            <p style="margin-bottom: 30px; max-width: 600px; margin-left: auto; margin-right: auto;">
+                For detailed theoretical background, mathematical proofs of stability, and implementation details,
+                please
+                refer to the full project report.
+            </p>
+            <a href="https://github.com/ayadav10491/Portfolio/blob/master/pdf/MBSE_Formation_Control.pdf"
+                target="_blank" class="btn-cta">
+                <i class="fas fa-file-pdf"></i> Read Project Report
+            </a>
+        </div>
+
+        <div style="text-align: center; margin-top: 30px;">
+            <a href="../index.html#projects" class="btn-cta">Back to Projects</a>
+        </div>
+
+    </div>
+
+    <footer>
+        <p>© 2026 Akash Yadav. Built with ❤️ and Code.</p>
+    </footer>
+
+</body>
+
+</html>
