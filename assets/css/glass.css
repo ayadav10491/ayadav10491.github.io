@@ -61,7 +61,7 @@ nav {
     left: 50%;
     transform: translateX(-50%);
     width: 90%;
-    max-width: 600px;
+    max-width: 1100px;
     z-index: 1000;
     padding: 15px 30px;
     display: flex;
@@ -122,7 +122,7 @@ nav.glass:hover {
 .hero p {
     font-size: 1.25rem;
     color: var(--text-dark-teal);
-    max-width: 600px;
+    max-width: 800px;
     margin: 0 auto 2rem auto;
 }
 
@@ -191,7 +191,7 @@ nav.glass:hover {
 /* Experience Timeline */
 .timeline {
     position: relative;
-    max-width: 900px;
+    max-width: 1100px;
     /* Increased width */
     margin: 0 auto;
 }
