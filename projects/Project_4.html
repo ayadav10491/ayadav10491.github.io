@@ -138,9 +138,18 @@
     </div>
 
     <footer>
-        <p>© 2026 Akash Yadav. Built with ❤️ and Code.</p>
+        <p>© 2026 Akash Yadav. Built with ❤️.</p>
     </footer>
 
+    <script>
+        if ('serviceWorker' in navigator) {
+            navigator.serviceWorker.getRegistrations().then(function (registrations) {
+                for (let registration of registrations) {
+                    registration.unregister();
+                }
+            });
+        }
+    </script>
 </body>
 
 </html>
